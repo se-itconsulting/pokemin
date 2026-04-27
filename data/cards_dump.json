@@ -1,0 +1,5824 @@
+[
+  {
+    "id": "hgss4-1",
+    "name": "Aggron",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "140",
+    "types": [
+      "Metal"
+    ],
+    "evolves_from": "Lairon",
+    "set_id": "hgss4",
+    "set_name": "HS—Triumphant",
+    "series": "HeartGold & SoulSilver",
+    "number": "1",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "flavor_text": "You can tell its age by the length of its iron horns. It claims an entire mountain as its territory.",
+    "image_small": "https://images.pokemontcg.io/hgss4/1.png",
+    "image_large": "https://images.pokemontcg.io/hgss4/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss4-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss4-1"
+  },
+  {
+    "id": "xy5-1",
+    "name": "Weedle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy5",
+    "set_name": "Primal Clash",
+    "series": "XY",
+    "number": "1",
+    "artist": "Midori Harada",
+    "rarity": "Common",
+    "flavor_text": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+    "image_small": "https://images.pokemontcg.io/xy5/1.png",
+    "image_large": "https://images.pokemontcg.io/xy5/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy5-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy5-1"
+  },
+  {
+    "id": "pl1-1",
+    "name": "Ampharos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Lightning"
+    ],
+    "evolves_from": "Flaaffy",
+    "set_id": "pl1",
+    "set_name": "Platinum",
+    "series": "Platinum",
+    "number": "1",
+    "artist": "Atsuko Nishida",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/pl1/1.png",
+    "image_large": "https://images.pokemontcg.io/pl1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl1-1"
+  },
+  {
+    "id": "dp3-1",
+    "name": "Ampharos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Lightning"
+    ],
+    "evolves_from": "Flaaffy",
+    "set_id": "dp3",
+    "set_name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "number": "1",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare Holo",
+    "flavor_text": "The tip of its tail shines brightly. In the olden days, people sent signals using the tail's light.",
+    "image_small": "https://images.pokemontcg.io/dp3/1.png",
+    "image_large": "https://images.pokemontcg.io/dp3/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp3-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp3-1"
+  },
+  {
+    "id": "det1-1",
+    "name": "Bulbasaur",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "det1",
+    "set_name": "Detective Pikachu",
+    "series": "Sun & Moon",
+    "number": "1",
+    "artist": "MPC Film",
+    "rarity": "Common",
+    "flavor_text": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+    "image_small": "https://images.pokemontcg.io/det1/1.png",
+    "image_large": "https://images.pokemontcg.io/det1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/det1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/det1-1"
+  },
+  {
+    "id": "dv1-1",
+    "name": "Dratini",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "40",
+    "types": [
+      "Dragon"
+    ],
+    "set_id": "dv1",
+    "set_name": "Dragon Vault",
+    "series": "Black & White",
+    "number": "1",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare Holo",
+    "flavor_text": "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
+    "image_small": "https://images.pokemontcg.io/dv1/1.png",
+    "image_large": "https://images.pokemontcg.io/dv1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dv1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dv1-1"
+  },
+  {
+    "id": "mcd19-1",
+    "name": "Caterpie",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "mcd19",
+    "set_name": "McDonald's Collection 2019",
+    "series": "Other",
+    "number": "1",
+    "artist": "Sekio",
+    "flavor_text": "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey.",
+    "image_small": "https://images.pokemontcg.io/mcd19/1.png",
+    "image_large": "https://images.pokemontcg.io/mcd19/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/mcd19-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/mcd19-1"
+  },
+  {
+    "id": "pl3-1",
+    "name": "Absol G",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "SP"
+    ],
+    "hp": "70",
+    "types": [
+      "Darkness"
+    ],
+    "set_id": "pl3",
+    "set_name": "Supreme Victors",
+    "series": "Platinum",
+    "number": "1",
+    "artist": "Yusuke Ishikawa",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/pl3/1.png",
+    "image_large": "https://images.pokemontcg.io/pl3/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl3-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl3-1"
+  },
+  {
+    "id": "ex12-1",
+    "name": "Aerodactyl",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Mysterious Fossil",
+    "set_id": "ex12",
+    "set_name": "Legend Maker",
+    "series": "EX",
+    "number": "1",
+    "artist": "Hajime Kusajima",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex12/1.png",
+    "image_large": "https://images.pokemontcg.io/ex12/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex12-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex12-1"
+  },
+  {
+    "id": "ex3-1",
+    "name": "Absol",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Darkness"
+    ],
+    "set_id": "ex3",
+    "set_name": "Dragon",
+    "series": "EX",
+    "number": "1",
+    "artist": "Naoyo Kimura",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex3/1.png",
+    "image_large": "https://images.pokemontcg.io/ex3/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex3-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex3-1"
+  },
+  {
+    "id": "ru1-1",
+    "name": "Venusaur",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "140",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Ivysaur",
+    "set_id": "ru1",
+    "set_name": "Pokémon Rumble",
+    "series": "Other",
+    "number": "1",
+    "artist": "Pokemon Rumble",
+    "image_small": "https://images.pokemontcg.io/ru1/1.png",
+    "image_large": "https://images.pokemontcg.io/ru1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ru1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ru1-1"
+  },
+  {
+    "id": "ecard2-H1",
+    "name": "Ampharos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Lightning"
+    ],
+    "evolves_from": "Flaaffy",
+    "set_id": "ecard2",
+    "set_name": "Aquapolis",
+    "series": "E-Card",
+    "number": "H1",
+    "artist": "Shin-ichi Yoshida",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ecard2/H1.png",
+    "image_large": "https://images.pokemontcg.io/ecard2/H1_hires.png",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ecard2-H1"
+  },
+  {
+    "id": "base4-1",
+    "name": "Alakazam",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "80",
+    "types": [
+      "Psychic"
+    ],
+    "evolves_from": "Kadabra",
+    "set_id": "base4",
+    "set_name": "Base Set 2",
+    "series": "Base",
+    "number": "1",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "flavor_text": "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
+    "image_small": "https://images.pokemontcg.io/base4/1.png",
+    "image_large": "https://images.pokemontcg.io/base4/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base4-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base4-1"
+  },
+  {
+    "id": "hgss1-1",
+    "name": "Arcanine",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "110",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Growlithe",
+    "set_id": "hgss1",
+    "set_name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "number": "1",
+    "artist": "Naoki Saito",
+    "rarity": "Rare Holo",
+    "flavor_text": "This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane.",
+    "image_small": "https://images.pokemontcg.io/hgss1/1.png",
+    "image_large": "https://images.pokemontcg.io/hgss1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss1-1"
+  },
+  {
+    "id": "ex11-1",
+    "name": "Beedrill δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "90",
+    "types": [
+      "Grass",
+      "Metal"
+    ],
+    "evolves_from": "Kakuna",
+    "set_id": "ex11",
+    "set_name": "Delta Species",
+    "series": "EX",
+    "number": "1",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex11/1.png",
+    "image_large": "https://images.pokemontcg.io/ex11/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex11-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex11-1"
+  },
+  {
+    "id": "ex7-1",
+    "name": "Azumarill",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Marill",
+    "set_id": "ex7",
+    "set_name": "Team Rocket Returns",
+    "series": "EX",
+    "number": "1",
+    "artist": "Sumiyoshi Kizuki",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex7/1.png",
+    "image_large": "https://images.pokemontcg.io/ex7/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex7-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex7-1"
+  },
+  {
+    "id": "gym1-1",
+    "name": "Blaine's Moltres",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "90",
+    "types": [
+      "Fire"
+    ],
+    "set_id": "gym1",
+    "set_name": "Gym Heroes",
+    "series": "Gym",
+    "number": "1",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/gym1/1.png",
+    "image_large": "https://images.pokemontcg.io/gym1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/gym1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/gym1-1"
+  },
+  {
+    "id": "base3-1",
+    "name": "Aerodactyl",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "60",
+    "types": [
+      "Fighting"
+    ],
+    "evolves_from": "Mysterious Fossil",
+    "set_id": "base3",
+    "set_name": "Fossil",
+    "series": "Base",
+    "number": "1",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "flavor_text": "A ferocious prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
+    "image_small": "https://images.pokemontcg.io/base3/1.png",
+    "image_large": "https://images.pokemontcg.io/base3/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base3-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base3-1"
+  },
+  {
+    "id": "sm9-1",
+    "name": "Celebi & Venusaur-GX",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "TAG TEAM",
+      "GX"
+    ],
+    "hp": "270",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm9",
+    "set_name": "Team Up",
+    "series": "Sun & Moon",
+    "number": "1",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo GX",
+    "image_small": "https://images.pokemontcg.io/sm9/1.png",
+    "image_large": "https://images.pokemontcg.io/sm9/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm9-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm9-1"
+  },
+  {
+    "id": "xy2-1",
+    "name": "Caterpie",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "40",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy2",
+    "set_name": "Flashfire",
+    "series": "XY",
+    "number": "1",
+    "artist": "Sumiyoshi Kizuki",
+    "rarity": "Common",
+    "flavor_text": "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
+    "image_small": "https://images.pokemontcg.io/xy2/1.png",
+    "image_large": "https://images.pokemontcg.io/xy2/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy2-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy2-1"
+  },
+  {
+    "id": "pop6-1",
+    "name": "Bastiodon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Metal"
+    ],
+    "evolves_from": "Shieldon",
+    "set_id": "pop6",
+    "set_name": "POP Series 6",
+    "series": "POP",
+    "number": "1",
+    "artist": "Kazuyuki Kano",
+    "rarity": "Rare",
+    "flavor_text": "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
+    "image_small": "https://images.pokemontcg.io/pop6/1.png",
+    "image_large": "https://images.pokemontcg.io/pop6/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop6-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop6-1"
+  },
+  {
+    "id": "ecard2-H2",
+    "name": "Arcanine",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Growlithe",
+    "set_id": "ecard2",
+    "set_name": "Aquapolis",
+    "series": "E-Card",
+    "number": "H2",
+    "artist": "Kyoko Umemoto",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ecard2/H2.png",
+    "image_large": "https://images.pokemontcg.io/ecard2/H2_hires.png",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ecard2-H2"
+  },
+  {
+    "id": "hgss4-2",
+    "name": "Altaria",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Swablu",
+    "set_id": "hgss4",
+    "set_name": "HS—Triumphant",
+    "series": "HeartGold & SoulSilver",
+    "number": "2",
+    "artist": "Ryo Ueda",
+    "rarity": "Rare Holo",
+    "flavor_text": "It flies gracefully through the sky. Its melodic humming makes you feel like you're in a dream.",
+    "image_small": "https://images.pokemontcg.io/hgss4/2.png",
+    "image_large": "https://images.pokemontcg.io/hgss4/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss4-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss4-2"
+  },
+  {
+    "id": "pl1-2",
+    "name": "Blastoise",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Wartortle",
+    "set_id": "pl1",
+    "set_name": "Platinum",
+    "series": "Platinum",
+    "number": "2",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/pl1/2.png",
+    "image_large": "https://images.pokemontcg.io/pl1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl1-2"
+  },
+  {
+    "id": "ex3-2",
+    "name": "Altaria",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Swablu",
+    "set_id": "ex3",
+    "set_name": "Dragon",
+    "series": "EX",
+    "number": "2",
+    "artist": "Atsuko Nishida",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex3/2.png",
+    "image_large": "https://images.pokemontcg.io/ex3/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex3-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex3-2"
+  },
+  {
+    "id": "dp3-2",
+    "name": "Blastoise",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Wartortle",
+    "set_id": "dp3",
+    "set_name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "number": "2",
+    "artist": "Daisuke Ito",
+    "rarity": "Rare Holo",
+    "flavor_text": "The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.",
+    "image_small": "https://images.pokemontcg.io/dp3/2.png",
+    "image_large": "https://images.pokemontcg.io/dp3/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp3-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp3-2"
+  },
+  {
+    "id": "base3-2",
+    "name": "Articuno",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Water"
+    ],
+    "set_id": "base3",
+    "set_name": "Fossil",
+    "series": "Base",
+    "number": "2",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "flavor_text": "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+    "image_small": "https://images.pokemontcg.io/base3/2.png",
+    "image_large": "https://images.pokemontcg.io/base3/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base3-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base3-2"
+  },
+  {
+    "id": "pl3-2",
+    "name": "Blaziken FB",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "SP"
+    ],
+    "hp": "80",
+    "types": [
+      "Fire"
+    ],
+    "set_id": "pl3",
+    "set_name": "Supreme Victors",
+    "series": "Platinum",
+    "number": "2",
+    "artist": "Motofumi Fujiwara",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/pl3/2.png",
+    "image_large": "https://images.pokemontcg.io/pl3/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl3-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl3-2"
+  },
+  {
+    "id": "ex11-2",
+    "name": "Crobat δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "90",
+    "types": [
+      "Grass",
+      "Metal"
+    ],
+    "evolves_from": "Golbat",
+    "set_id": "ex11",
+    "set_name": "Delta Species",
+    "series": "EX",
+    "number": "2",
+    "artist": "Ryo Ueda",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex11/2.png",
+    "image_large": "https://images.pokemontcg.io/ex11/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex11-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex11-2"
+  },
+  {
+    "id": "pop6-2",
+    "name": "Lucario",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Fighting"
+    ],
+    "evolves_from": "Riolu",
+    "set_id": "pop6",
+    "set_name": "POP Series 6",
+    "series": "POP",
+    "number": "2",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare",
+    "flavor_text": "It has the ability to sense the auras of all things. It understands human speech.",
+    "image_small": "https://images.pokemontcg.io/pop6/2.png",
+    "image_large": "https://images.pokemontcg.io/pop6/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop6-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop6-2"
+  },
+  {
+    "id": "xy2-2",
+    "name": "Metapod",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Caterpie",
+    "set_id": "xy2",
+    "set_name": "Flashfire",
+    "series": "XY",
+    "number": "2",
+    "artist": "kawayoo",
+    "rarity": "Uncommon",
+    "flavor_text": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+    "image_small": "https://images.pokemontcg.io/xy2/2.png",
+    "image_large": "https://images.pokemontcg.io/xy2/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy2-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy2-2"
+  },
+  {
+    "id": "base4-2",
+    "name": "Blastoise",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Wartortle",
+    "set_id": "base4",
+    "set_name": "Base Set 2",
+    "series": "Base",
+    "number": "2",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "flavor_text": "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.",
+    "image_small": "https://images.pokemontcg.io/base4/2.png",
+    "image_large": "https://images.pokemontcg.io/base4/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base4-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base4-2"
+  },
+  {
+    "id": "gym1-2",
+    "name": "Brock's Rhydon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Fighting"
+    ],
+    "evolves_from": "Brock's Rhyhorn",
+    "set_id": "gym1",
+    "set_name": "Gym Heroes",
+    "series": "Gym",
+    "number": "2",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/gym1/2.png",
+    "image_large": "https://images.pokemontcg.io/gym1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/gym1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/gym1-2"
+  },
+  {
+    "id": "hgss1-2",
+    "name": "Azumarill",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Marill",
+    "set_id": "hgss1",
+    "set_name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "number": "2",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare Holo",
+    "flavor_text": "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet.",
+    "image_small": "https://images.pokemontcg.io/hgss1/2.png",
+    "image_large": "https://images.pokemontcg.io/hgss1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss1-2"
+  },
+  {
+    "id": "det1-2",
+    "name": "Ludicolo",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "140",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Lombre",
+    "set_id": "det1",
+    "set_name": "Detective Pikachu",
+    "series": "Sun & Moon",
+    "number": "2",
+    "artist": "Framestore",
+    "rarity": "Rare",
+    "flavor_text": "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.",
+    "image_small": "https://images.pokemontcg.io/det1/2.png",
+    "image_large": "https://images.pokemontcg.io/det1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/det1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/det1-2"
+  },
+  {
+    "id": "sm9-2",
+    "name": "Weedle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "40",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm9",
+    "set_name": "Team Up",
+    "series": "Sun & Moon",
+    "number": "2",
+    "artist": "Shibuzoh.",
+    "rarity": "Common",
+    "flavor_text": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+    "image_small": "https://images.pokemontcg.io/sm9/2.png",
+    "image_large": "https://images.pokemontcg.io/sm9/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm9-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm9-2"
+  },
+  {
+    "id": "ex12-2",
+    "name": "Aggron",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "110",
+    "types": [
+      "Metal"
+    ],
+    "evolves_from": "Lairon",
+    "set_id": "ex12",
+    "set_name": "Legend Maker",
+    "series": "EX",
+    "number": "2",
+    "artist": "Hisao Nakamura",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex12/2.png",
+    "image_large": "https://images.pokemontcg.io/ex12/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex12-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex12-2"
+  },
+  {
+    "id": "ex7-2",
+    "name": "Dark Ampharos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Lightning",
+      "Darkness"
+    ],
+    "evolves_from": "Dark Flaaffy",
+    "set_id": "ex7",
+    "set_name": "Team Rocket Returns",
+    "series": "EX",
+    "number": "2",
+    "artist": "Emi Miwa",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex7/2.png",
+    "image_large": "https://images.pokemontcg.io/ex7/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex7-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex7-2"
+  },
+  {
+    "id": "ru1-2",
+    "name": "Cherrim",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Cherubi",
+    "set_id": "ru1",
+    "set_name": "Pokémon Rumble",
+    "series": "Other",
+    "number": "2",
+    "artist": "Pokemon Rumble",
+    "image_small": "https://images.pokemontcg.io/ru1/2.png",
+    "image_large": "https://images.pokemontcg.io/ru1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ru1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ru1-2"
+  },
+  {
+    "id": "mcd19-2",
+    "name": "Alolan Exeggutor",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "160",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Exeggcute",
+    "set_id": "mcd19",
+    "set_name": "McDonald's Collection 2019",
+    "series": "Other",
+    "number": "2",
+    "artist": "Satoshi Shirai",
+    "flavor_text": "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
+    "image_small": "https://images.pokemontcg.io/mcd19/2.png",
+    "image_large": "https://images.pokemontcg.io/mcd19/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/mcd19-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/mcd19-2"
+  },
+  {
+    "id": "xy5-2",
+    "name": "Kakuna",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Weedle",
+    "set_id": "xy5",
+    "set_name": "Primal Clash",
+    "series": "XY",
+    "number": "2",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Uncommon",
+    "flavor_text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+    "image_small": "https://images.pokemontcg.io/xy5/2.png",
+    "image_large": "https://images.pokemontcg.io/xy5/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy5-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy5-2"
+  },
+  {
+    "id": "xy11-1",
+    "name": "Tangela",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy11",
+    "set_name": "Steam Siege",
+    "series": "XY",
+    "number": "1",
+    "artist": "OOYAMA",
+    "rarity": "Common",
+    "flavor_text": "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+    "image_small": "https://images.pokemontcg.io/xy11/1.png",
+    "image_large": "https://images.pokemontcg.io/xy11/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy11-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy11-1"
+  },
+  {
+    "id": "ex14-1",
+    "name": "Banette",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Psychic"
+    ],
+    "evolves_from": "Shuppet",
+    "set_id": "ex14",
+    "set_name": "Crystal Guardians",
+    "series": "EX",
+    "number": "1",
+    "artist": "Kyoko Umemoto",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex14/1.png",
+    "image_large": "https://images.pokemontcg.io/ex14/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex14-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex14-1"
+  },
+  {
+    "id": "sm12-1",
+    "name": "Venusaur & Snivy-GX",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "TAG TEAM",
+      "GX"
+    ],
+    "hp": "270",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm12",
+    "set_name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "number": "1",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo GX",
+    "image_small": "https://images.pokemontcg.io/sm12/1.png",
+    "image_large": "https://images.pokemontcg.io/sm12/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm12-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm12-1"
+  },
+  {
+    "id": "bw1-1",
+    "name": "Snivy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw1",
+    "set_name": "Black & White",
+    "series": "Black & White",
+    "number": "1",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Common",
+    "flavor_text": "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+    "image_small": "https://images.pokemontcg.io/bw1/1.png",
+    "image_large": "https://images.pokemontcg.io/bw1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw1-1"
+  },
+  {
+    "id": "sm115-1",
+    "name": "Caterpie",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm115",
+    "set_name": "Hidden Fates",
+    "series": "Sun & Moon",
+    "number": "1",
+    "artist": "tetsuya koizumi",
+    "rarity": "Common",
+    "flavor_text": "Perhaps because it would like to grow up quickly, it has a voracious appetite, eating a hundred leaves a day.",
+    "image_small": "https://images.pokemontcg.io/sm115/1.png",
+    "image_large": "https://images.pokemontcg.io/sm115/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm115-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm115-1"
+  },
+  {
+    "id": "si1-1",
+    "name": "Mew",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "30",
+    "types": [
+      "Psychic"
+    ],
+    "set_id": "si1",
+    "set_name": "Southern Islands",
+    "series": "Other",
+    "number": "1",
+    "artist": "Keiko Fukuyama",
+    "flavor_text": "This Pokémon's body is covered by fine hairs that can be seen only under a microscope.",
+    "image_small": "https://images.pokemontcg.io/si1/1.png",
+    "image_large": "https://images.pokemontcg.io/si1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/si1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/si1-1"
+  },
+  {
+    "id": "dp1-1",
+    "name": "Dialga",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "90",
+    "types": [
+      "Metal"
+    ],
+    "set_id": "dp1",
+    "set_name": "Diamond & Pearl",
+    "series": "Diamond & Pearl",
+    "number": "1",
+    "artist": "Nakaoka",
+    "rarity": "Rare Holo",
+    "flavor_text": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+    "image_small": "https://images.pokemontcg.io/dp1/1.png",
+    "image_large": "https://images.pokemontcg.io/dp1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp1-1"
+  },
+  {
+    "id": "sm3-1",
+    "name": "Caterpie",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm3",
+    "set_name": "Burning Shadows",
+    "series": "Sun & Moon",
+    "number": "1",
+    "artist": "Sekio",
+    "rarity": "Common",
+    "flavor_text": "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey.",
+    "image_small": "https://images.pokemontcg.io/sm3/1.png",
+    "image_large": "https://images.pokemontcg.io/sm3/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm3-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm3-1"
+  },
+  {
+    "id": "pop7-1",
+    "name": "Ampharos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Lightning"
+    ],
+    "evolves_from": "Flaaffy",
+    "set_id": "pop7",
+    "set_name": "POP Series 7",
+    "series": "POP",
+    "number": "1",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare",
+    "flavor_text": "The tip of its tail shines brightly. In the olden days, people sent signals using the tail's light.",
+    "image_small": "https://images.pokemontcg.io/pop7/1.png",
+    "image_large": "https://images.pokemontcg.io/pop7/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop7-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop7-1"
+  },
+  {
+    "id": "gym2-1",
+    "name": "Blaine's Arcanine",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Blaine's Growlithe",
+    "set_id": "gym2",
+    "set_name": "Gym Challenge",
+    "series": "Gym",
+    "number": "1",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/gym2/1.png",
+    "image_large": "https://images.pokemontcg.io/gym2/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/gym2-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/gym2-1"
+  },
+  {
+    "id": "col1-1",
+    "name": "Clefable",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Clefairy",
+    "set_id": "col1",
+    "set_name": "Call of Legends",
+    "series": "HeartGold & SoulSilver",
+    "number": "1",
+    "artist": "sui",
+    "rarity": "Rare Holo",
+    "flavor_text": "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.",
+    "image_small": "https://images.pokemontcg.io/col1/1.png",
+    "image_large": "https://images.pokemontcg.io/col1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/col1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/col1-1"
+  },
+  {
+    "id": "ex9-1",
+    "name": "Blaziken",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "110",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Combusken",
+    "set_id": "ex9",
+    "set_name": "Emerald",
+    "series": "EX",
+    "number": "1",
+    "artist": "Midori Harada",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex9/1.png",
+    "image_large": "https://images.pokemontcg.io/ex9/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex9-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex9-1"
+  },
+  {
+    "id": "bw10-1",
+    "name": "Surskit",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw10",
+    "set_name": "Plasma Blast",
+    "series": "Black & White",
+    "number": "1",
+    "artist": "Naoyo Kimura",
+    "rarity": "Common",
+    "flavor_text": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+    "image_small": "https://images.pokemontcg.io/bw10/1.png",
+    "image_large": "https://images.pokemontcg.io/bw10/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw10-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw10-1"
+  },
+  {
+    "id": "swsh35-1",
+    "name": "Venusaur V",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "hp": "220",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "swsh35",
+    "set_name": "Champion's Path",
+    "series": "Sword & Shield",
+    "number": "1",
+    "artist": "PLANETA Mochizuki",
+    "rarity": "Rare Holo V",
+    "image_small": "https://images.pokemontcg.io/swsh35/1.png",
+    "image_large": "https://images.pokemontcg.io/swsh35/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/swsh35-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/swsh35-1"
+  },
+  {
+    "id": "xy7-1",
+    "name": "Oddish",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy7",
+    "set_name": "Ancient Origins",
+    "series": "XY",
+    "number": "1",
+    "artist": "MAHOU",
+    "rarity": "Common",
+    "flavor_text": "Its scientific name is \"Oddium Wanderus.\" At night, it is said to walk nearly 1,000 feet on its two roots.",
+    "image_small": "https://images.pokemontcg.io/xy7/1.png",
+    "image_large": "https://images.pokemontcg.io/xy7/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy7-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy7-1"
+  },
+  {
+    "id": "sm1-1",
+    "name": "Caterpie",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm1",
+    "set_name": "Sun & Moon",
+    "series": "Sun & Moon",
+    "number": "1",
+    "artist": "Kanako Eo",
+    "rarity": "Common",
+    "flavor_text": "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey.",
+    "image_small": "https://images.pokemontcg.io/sm1/1.png",
+    "image_large": "https://images.pokemontcg.io/sm1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm1-1"
+  },
+  {
+    "id": "ex13-1",
+    "name": "Armaldo δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "110",
+    "types": [
+      "Fighting",
+      "Metal"
+    ],
+    "evolves_from": "Anorith",
+    "set_id": "ex13",
+    "set_name": "Holon Phantoms",
+    "series": "EX",
+    "number": "1",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex13/1.png",
+    "image_large": "https://images.pokemontcg.io/ex13/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex13-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex13-1"
+  },
+  {
+    "id": "dv1-2",
+    "name": "Dratini",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "40",
+    "types": [
+      "Dragon"
+    ],
+    "set_id": "dv1",
+    "set_name": "Dragon Vault",
+    "series": "Black & White",
+    "number": "2",
+    "artist": "Naoki Saito",
+    "rarity": "Rare Holo",
+    "flavor_text": "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
+    "image_small": "https://images.pokemontcg.io/dv1/2.png",
+    "image_large": "https://images.pokemontcg.io/dv1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dv1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dv1-2"
+  },
+  {
+    "id": "ecard2-H3",
+    "name": "Ariados",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Spinarak",
+    "set_id": "ecard2",
+    "set_name": "Aquapolis",
+    "series": "E-Card",
+    "number": "H3",
+    "artist": "Shin-ichi Yoshida",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ecard2/H3.png",
+    "image_large": "https://images.pokemontcg.io/ecard2/H3_hires.png",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ecard2-H3"
+  },
+  {
+    "id": "sm12-2",
+    "name": "Oddish",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm12",
+    "set_name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "number": "2",
+    "artist": "Yumi",
+    "rarity": "Common",
+    "flavor_text": "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+    "image_small": "https://images.pokemontcg.io/sm12/2.png",
+    "image_large": "https://images.pokemontcg.io/sm12/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm12-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm12-2"
+  },
+  {
+    "id": "ex9-2",
+    "name": "Deoxys",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Psychic"
+    ],
+    "set_id": "ex9",
+    "set_name": "Emerald",
+    "series": "EX",
+    "number": "2",
+    "artist": "Hironobu Yoshida",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex9/2.png",
+    "image_large": "https://images.pokemontcg.io/ex9/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex9-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex9-2"
+  },
+  {
+    "id": "bw1-2",
+    "name": "Snivy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw1",
+    "set_name": "Black & White",
+    "series": "Black & White",
+    "number": "2",
+    "artist": "5ban Graphics",
+    "rarity": "Common",
+    "flavor_text": "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+    "image_small": "https://images.pokemontcg.io/bw1/2.png",
+    "image_large": "https://images.pokemontcg.io/bw1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw1-2"
+  },
+  {
+    "id": "base4-3",
+    "name": "Chansey",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "120",
+    "types": [
+      "Colorless"
+    ],
+    "set_id": "base4",
+    "set_name": "Base Set 2",
+    "series": "Base",
+    "number": "3",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "flavor_text": "A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it.",
+    "image_small": "https://images.pokemontcg.io/base4/3.png",
+    "image_large": "https://images.pokemontcg.io/base4/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base4-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base4-3"
+  },
+  {
+    "id": "ru1-3",
+    "name": "Ninetales",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Vulpix",
+    "set_id": "ru1",
+    "set_name": "Pokémon Rumble",
+    "series": "Other",
+    "number": "3",
+    "artist": "Pokemon Rumble",
+    "image_small": "https://images.pokemontcg.io/ru1/3.png",
+    "image_large": "https://images.pokemontcg.io/ru1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ru1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ru1-3"
+  },
+  {
+    "id": "xy5-3",
+    "name": "Beedrill",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Kakuna",
+    "set_id": "xy5",
+    "set_name": "Primal Clash",
+    "series": "XY",
+    "number": "3",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare",
+    "flavor_text": "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear.",
+    "image_small": "https://images.pokemontcg.io/xy5/3.png",
+    "image_large": "https://images.pokemontcg.io/xy5/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy5-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy5-3"
+  },
+  {
+    "id": "pop6-3",
+    "name": "Manaphy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Water"
+    ],
+    "set_id": "pop6",
+    "set_name": "POP Series 6",
+    "series": "POP",
+    "number": "3",
+    "artist": "Atsuko Nishida",
+    "rarity": "Rare",
+    "flavor_text": "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
+    "image_small": "https://images.pokemontcg.io/pop6/3.png",
+    "image_large": "https://images.pokemontcg.io/pop6/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop6-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop6-3"
+  },
+  {
+    "id": "si1-2",
+    "name": "Pidgeot",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "70",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Pidgeotto",
+    "set_id": "si1",
+    "set_name": "Southern Islands",
+    "series": "Other",
+    "number": "2",
+    "artist": "Keiko Fukuyama",
+    "flavor_text": "This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons.",
+    "image_small": "https://images.pokemontcg.io/si1/2.png",
+    "image_large": "https://images.pokemontcg.io/si1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/si1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/si1-2"
+  },
+  {
+    "id": "ex11-3",
+    "name": "Dragonite δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Lightning",
+      "Metal"
+    ],
+    "evolves_from": "Dragonair",
+    "set_id": "ex11",
+    "set_name": "Delta Species",
+    "series": "EX",
+    "number": "3",
+    "artist": "Ryo Ueda",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex11/3.png",
+    "image_large": "https://images.pokemontcg.io/ex11/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex11-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex11-3"
+  },
+  {
+    "id": "pl3-3",
+    "name": "Drifblim FB",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "SP"
+    ],
+    "hp": "80",
+    "types": [
+      "Psychic"
+    ],
+    "set_id": "pl3",
+    "set_name": "Supreme Victors",
+    "series": "Platinum",
+    "number": "3",
+    "artist": "Lee HyunJung",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/pl3/3.png",
+    "image_large": "https://images.pokemontcg.io/pl3/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl3-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl3-3"
+  },
+  {
+    "id": "base3-3",
+    "name": "Ditto",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Colorless"
+    ],
+    "set_id": "base3",
+    "set_name": "Fossil",
+    "series": "Base",
+    "number": "3",
+    "artist": "Keiji Kinebuchi",
+    "rarity": "Rare Holo",
+    "flavor_text": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
+    "image_small": "https://images.pokemontcg.io/base3/3.png",
+    "image_large": "https://images.pokemontcg.io/base3/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base3-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base3-3"
+  },
+  {
+    "id": "hgss1-3",
+    "name": "Clefable",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Clefairy",
+    "set_id": "hgss1",
+    "set_name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "number": "3",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare Holo",
+    "flavor_text": "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.",
+    "image_small": "https://images.pokemontcg.io/hgss1/3.png",
+    "image_large": "https://images.pokemontcg.io/hgss1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss1-3"
+  },
+  {
+    "id": "ex13-2",
+    "name": "Cradily δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Darkness",
+      "Metal"
+    ],
+    "evolves_from": "Lileep",
+    "set_id": "ex13",
+    "set_name": "Holon Phantoms",
+    "series": "EX",
+    "number": "2",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex13/2.png",
+    "image_large": "https://images.pokemontcg.io/ex13/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex13-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex13-2"
+  },
+  {
+    "id": "hgss4-3",
+    "name": "Celebi",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Psychic"
+    ],
+    "set_id": "hgss4",
+    "set_name": "HS—Triumphant",
+    "series": "HeartGold & SoulSilver",
+    "number": "3",
+    "artist": "Shin Nagasawa",
+    "rarity": "Rare Holo",
+    "flavor_text": "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+    "image_small": "https://images.pokemontcg.io/hgss4/3.png",
+    "image_large": "https://images.pokemontcg.io/hgss4/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss4-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss4-3"
+  },
+  {
+    "id": "xy7-2",
+    "name": "Gloom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Oddish",
+    "set_id": "xy7",
+    "set_name": "Ancient Origins",
+    "series": "XY",
+    "number": "2",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Uncommon",
+    "flavor_text": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+    "image_small": "https://images.pokemontcg.io/xy7/2.png",
+    "image_large": "https://images.pokemontcg.io/xy7/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy7-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy7-2"
+  },
+  {
+    "id": "bw10-2",
+    "name": "Masquerain",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "Team Plasma"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Surskit",
+    "set_id": "bw10",
+    "set_name": "Plasma Blast",
+    "series": "Black & White",
+    "number": "2",
+    "artist": "5ban Graphics",
+    "rarity": "Rare",
+    "flavor_text": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+    "image_small": "https://images.pokemontcg.io/bw10/2.png",
+    "image_large": "https://images.pokemontcg.io/bw10/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw10-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw10-2"
+  },
+  {
+    "id": "ex7-3",
+    "name": "Dark Crobat",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "90",
+    "types": [
+      "Grass",
+      "Darkness"
+    ],
+    "evolves_from": "Dark Golbat",
+    "set_id": "ex7",
+    "set_name": "Team Rocket Returns",
+    "series": "EX",
+    "number": "3",
+    "artist": "Kyoko Koizumi",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex7/3.png",
+    "image_large": "https://images.pokemontcg.io/ex7/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex7-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex7-3"
+  },
+  {
+    "id": "ex12-3",
+    "name": "Cradily",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Lileep",
+    "set_id": "ex12",
+    "set_name": "Legend Maker",
+    "series": "EX",
+    "number": "3",
+    "artist": "Hajime Kusajima",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex12/3.png",
+    "image_large": "https://images.pokemontcg.io/ex12/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex12-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex12-3"
+  },
+  {
+    "id": "swsh35-2",
+    "name": "Weedle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "swsh35",
+    "set_name": "Champion's Path",
+    "series": "Sword & Shield",
+    "number": "2",
+    "artist": "Yuka Morii",
+    "rarity": "Common",
+    "flavor_text": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+    "image_small": "https://images.pokemontcg.io/swsh35/2.png",
+    "image_large": "https://images.pokemontcg.io/swsh35/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/swsh35-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/swsh35-2"
+  },
+  {
+    "id": "gym2-2",
+    "name": "Blaine's Charizard",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Blaine's Charmeleon",
+    "set_id": "gym2",
+    "set_name": "Gym Challenge",
+    "series": "Gym",
+    "number": "2",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/gym2/2.png",
+    "image_large": "https://images.pokemontcg.io/gym2/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/gym2-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/gym2-2"
+  },
+  {
+    "id": "xy2-3",
+    "name": "Butterfree",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Metapod",
+    "set_id": "xy2",
+    "set_name": "Flashfire",
+    "series": "XY",
+    "number": "3",
+    "artist": "sui",
+    "rarity": "Rare",
+    "flavor_text": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+    "image_small": "https://images.pokemontcg.io/xy2/3.png",
+    "image_large": "https://images.pokemontcg.io/xy2/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy2-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy2-3"
+  },
+  {
+    "id": "xy11-2",
+    "name": "Tangrowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "130",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Tangela",
+    "set_id": "xy11",
+    "set_name": "Steam Siege",
+    "series": "XY",
+    "number": "2",
+    "artist": "kirisAki",
+    "rarity": "Uncommon",
+    "flavor_text": "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
+    "image_small": "https://images.pokemontcg.io/xy11/2.png",
+    "image_large": "https://images.pokemontcg.io/xy11/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy11-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy11-2"
+  },
+  {
+    "id": "det1-3",
+    "name": "Morelull",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "det1",
+    "set_name": "Detective Pikachu",
+    "series": "Sun & Moon",
+    "number": "3",
+    "artist": "MPC Film",
+    "rarity": "Common",
+    "flavor_text": "It scatters its shining spores around itself. Even though they're dangerous, nighttime tours of forests where Morelull live are popular.",
+    "image_small": "https://images.pokemontcg.io/det1/3.png",
+    "image_large": "https://images.pokemontcg.io/det1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/det1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/det1-3"
+  },
+  {
+    "id": "ex3-3",
+    "name": "Crawdaunt",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Corphish",
+    "set_id": "ex3",
+    "set_name": "Dragon",
+    "series": "EX",
+    "number": "3",
+    "artist": "Hisao Nakamura",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex3/3.png",
+    "image_large": "https://images.pokemontcg.io/ex3/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex3-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex3-3"
+  },
+  {
+    "id": "dv1-3",
+    "name": "Dragonair",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Dragon"
+    ],
+    "evolves_from": "Dratini",
+    "set_id": "dv1",
+    "set_name": "Dragon Vault",
+    "series": "Black & White",
+    "number": "3",
+    "artist": "Hajime Kusajima",
+    "rarity": "Rare Holo",
+    "flavor_text": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+    "image_small": "https://images.pokemontcg.io/dv1/3.png",
+    "image_large": "https://images.pokemontcg.io/dv1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dv1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dv1-3"
+  },
+  {
+    "id": "sm9-3",
+    "name": "Weedle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm9",
+    "set_name": "Team Up",
+    "series": "Sun & Moon",
+    "number": "3",
+    "artist": "SATOSHI NAKAI",
+    "rarity": "Common",
+    "flavor_text": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+    "image_small": "https://images.pokemontcg.io/sm9/3.png",
+    "image_large": "https://images.pokemontcg.io/sm9/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm9-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm9-3"
+  },
+  {
+    "id": "pop7-2",
+    "name": "Gallade",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Fighting"
+    ],
+    "evolves_from": "Kirlia",
+    "set_id": "pop7",
+    "set_name": "POP Series 7",
+    "series": "POP",
+    "number": "2",
+    "artist": "Daisuke Ito",
+    "rarity": "Rare",
+    "flavor_text": "A master of courtesy and swordsmanship, it fights using extending swords on it elbows.",
+    "image_small": "https://images.pokemontcg.io/pop7/2.png",
+    "image_large": "https://images.pokemontcg.io/pop7/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop7-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop7-2"
+  },
+  {
+    "id": "sm1-2",
+    "name": "Metapod",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Caterpie",
+    "set_id": "sm1",
+    "set_name": "Sun & Moon",
+    "series": "Sun & Moon",
+    "number": "2",
+    "artist": "Yuka Morii",
+    "rarity": "Uncommon",
+    "flavor_text": "Its shell is filled with its soft innards. It doesn't move much because of the risk it might carelessly spill its innards out.",
+    "image_small": "https://images.pokemontcg.io/sm1/2.png",
+    "image_large": "https://images.pokemontcg.io/sm1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm1-2"
+  },
+  {
+    "id": "mcd19-3",
+    "name": "Magmar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Fire"
+    ],
+    "set_id": "mcd19",
+    "set_name": "McDonald's Collection 2019",
+    "series": "Other",
+    "number": "3",
+    "artist": "Yumi",
+    "flavor_text": "When angered, it spouts brilliant fire from all over its body. It doesn't calm down until its opponent has burned to ash.",
+    "image_small": "https://images.pokemontcg.io/mcd19/3.png",
+    "image_large": "https://images.pokemontcg.io/mcd19/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/mcd19-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/mcd19-3"
+  },
+  {
+    "id": "col1-2",
+    "name": "Deoxys",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Psychic"
+    ],
+    "set_id": "col1",
+    "set_name": "Call of Legends",
+    "series": "HeartGold & SoulSilver",
+    "number": "2",
+    "artist": "Ryo Ueda",
+    "rarity": "Rare Holo",
+    "flavor_text": "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+    "image_small": "https://images.pokemontcg.io/col1/2.png",
+    "image_large": "https://images.pokemontcg.io/col1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/col1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/col1-2"
+  },
+  {
+    "id": "pl1-3",
+    "name": "Blaziken",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Combusken",
+    "set_id": "pl1",
+    "set_name": "Platinum",
+    "series": "Platinum",
+    "number": "3",
+    "artist": "Hajime Kusajima",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/pl1/3.png",
+    "image_large": "https://images.pokemontcg.io/pl1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl1-3"
+  },
+  {
+    "id": "sm115-2",
+    "name": "Metapod",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Caterpie",
+    "set_id": "sm115",
+    "set_name": "Hidden Fates",
+    "series": "Sun & Moon",
+    "number": "2",
+    "artist": "Shibuzoh.",
+    "rarity": "Uncommon",
+    "flavor_text": "Its shell is filled with a thick liquid. All of the cells throughout its body are being rebuilt in preparation for evolution.",
+    "image_small": "https://images.pokemontcg.io/sm115/2.png",
+    "image_large": "https://images.pokemontcg.io/sm115/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm115-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm115-2"
+  },
+  {
+    "id": "gym1-3",
+    "name": "Erika's Clefable",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Erika's Clefairy",
+    "set_id": "gym1",
+    "set_name": "Gym Heroes",
+    "series": "Gym",
+    "number": "3",
+    "artist": "Atsuko Nishida",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/gym1/3.png",
+    "image_large": "https://images.pokemontcg.io/gym1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/gym1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/gym1-3"
+  },
+  {
+    "id": "dp3-3",
+    "name": "Charizard",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Charmeleon",
+    "set_id": "dp3",
+    "set_name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "number": "3",
+    "artist": "Daisuke Ito",
+    "rarity": "Rare Holo",
+    "flavor_text": "It is said that CHARIZARD's fire burns hotter if it has experienced harsh battles.",
+    "image_small": "https://images.pokemontcg.io/dp3/3.png",
+    "image_large": "https://images.pokemontcg.io/dp3/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp3-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp3-3"
+  },
+  {
+    "id": "sm2-1",
+    "name": "Bellsprout",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm2",
+    "set_name": "Guardians Rising",
+    "series": "Sun & Moon",
+    "number": "1",
+    "artist": "Aya Kusube",
+    "rarity": "Common",
+    "flavor_text": "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+    "image_small": "https://images.pokemontcg.io/sm2/1.png",
+    "image_large": "https://images.pokemontcg.io/sm2/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm2-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm2-1"
+  },
+  {
+    "id": "base5-1",
+    "name": "Dark Alakazam",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "60",
+    "types": [
+      "Psychic"
+    ],
+    "evolves_from": "Dark Kadabra",
+    "set_id": "base5",
+    "set_name": "Team Rocket",
+    "series": "Base",
+    "number": "1",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "flavor_text": "Almost as if it were being controlled by something else, it never changes expressions, even in the middle of battle.",
+    "image_small": "https://images.pokemontcg.io/base5/1.png",
+    "image_large": "https://images.pokemontcg.io/base5/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base5-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base5-1"
+  },
+  {
+    "id": "xy4-1",
+    "name": "Venonat",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy4",
+    "set_name": "Phantom Forces",
+    "series": "XY",
+    "number": "1",
+    "artist": "Sumiyoshi Kizuki",
+    "rarity": "Common",
+    "flavor_text": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+    "image_small": "https://images.pokemontcg.io/xy4/1.png",
+    "image_large": "https://images.pokemontcg.io/xy4/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy4-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy4-1"
+  },
+  {
+    "id": "bw11-1",
+    "name": "Tangela",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw11",
+    "set_name": "Legendary Treasures",
+    "series": "Black & White",
+    "number": "1",
+    "artist": "kirisAki",
+    "rarity": "Common",
+    "flavor_text": "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
+    "image_small": "https://images.pokemontcg.io/bw11/1.png",
+    "image_large": "https://images.pokemontcg.io/bw11/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw11-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw11-1"
+  },
+  {
+    "id": "ex4-1",
+    "name": "Team Aqua's Cacturne",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass",
+      "Darkness"
+    ],
+    "evolves_from": "Team Aqua's Cacnea",
+    "set_id": "ex4",
+    "set_name": "Team Magma vs Team Aqua",
+    "series": "EX",
+    "number": "1",
+    "artist": "K. Utsunomiya",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex4/1.png",
+    "image_large": "https://images.pokemontcg.io/ex4/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex4-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex4-1"
+  },
+  {
+    "id": "bw4-1",
+    "name": "Pinsir",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw4",
+    "set_name": "Next Destinies",
+    "series": "Black & White",
+    "number": "1",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare",
+    "flavor_text": "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far.",
+    "image_small": "https://images.pokemontcg.io/bw4/1.png",
+    "image_large": "https://images.pokemontcg.io/bw4/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw4-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw4-1"
+  },
+  {
+    "id": "bw9-1",
+    "name": "Weedle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw9",
+    "set_name": "Plasma Freeze",
+    "series": "Black & White",
+    "number": "1",
+    "artist": "Sumiyoshi Kizuki",
+    "rarity": "Common",
+    "flavor_text": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+    "image_small": "https://images.pokemontcg.io/bw9/1.png",
+    "image_large": "https://images.pokemontcg.io/bw9/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw9-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw9-1"
+  },
+  {
+    "id": "base1-1",
+    "name": "Alakazam",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "80",
+    "types": [
+      "Psychic"
+    ],
+    "evolves_from": "Kadabra",
+    "set_id": "base1",
+    "set_name": "Base",
+    "series": "Base",
+    "number": "1",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "flavor_text": "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
+    "image_small": "https://images.pokemontcg.io/base1/1.png",
+    "image_large": "https://images.pokemontcg.io/base1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base1-1"
+  },
+  {
+    "id": "pop3-1",
+    "name": "Blastoise",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Wartortle",
+    "set_id": "pop3",
+    "set_name": "POP Series 3",
+    "series": "POP",
+    "number": "1",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop3/1.png",
+    "image_large": "https://images.pokemontcg.io/pop3/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop3-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop3-1"
+  },
+  {
+    "id": "dp4-1",
+    "name": "Blaziken",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Combusken",
+    "set_id": "dp4",
+    "set_name": "Great Encounters",
+    "series": "Diamond & Pearl",
+    "number": "1",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "flavor_text": "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
+    "image_small": "https://images.pokemontcg.io/dp4/1.png",
+    "image_large": "https://images.pokemontcg.io/dp4/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp4-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp4-1"
+  },
+  {
+    "id": "bw7-1",
+    "name": "Oddish",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw7",
+    "set_name": "Boundaries Crossed",
+    "series": "Black & White",
+    "number": "1",
+    "artist": "Kanako Eo",
+    "rarity": "Common",
+    "flavor_text": "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+    "image_small": "https://images.pokemontcg.io/bw7/1.png",
+    "image_large": "https://images.pokemontcg.io/bw7/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw7-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw7-1"
+  },
+  {
+    "id": "ex8-1",
+    "name": "Altaria",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Swablu",
+    "set_id": "ex8",
+    "set_name": "Deoxys",
+    "series": "EX",
+    "number": "1",
+    "artist": "Kyoko Umemoto",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex8/1.png",
+    "image_large": "https://images.pokemontcg.io/ex8/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex8-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex8-1"
+  },
+  {
+    "id": "bw5-1",
+    "name": "Bulbasaur",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw5",
+    "set_name": "Dark Explorers",
+    "series": "Black & White",
+    "number": "1",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Common",
+    "flavor_text": "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
+    "image_small": "https://images.pokemontcg.io/bw5/1.png",
+    "image_large": "https://images.pokemontcg.io/bw5/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw5-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw5-1"
+  },
+  {
+    "id": "pop5-1",
+    "name": "Ho-Oh",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Fire"
+    ],
+    "set_id": "pop5",
+    "set_name": "POP Series 5",
+    "series": "POP",
+    "number": "1",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop5/1.png",
+    "image_large": "https://images.pokemontcg.io/pop5/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop5-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop5-1"
+  },
+  {
+    "id": "sm5-1",
+    "name": "Exeggcute",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm5",
+    "set_name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "number": "1",
+    "artist": "kawayoo",
+    "rarity": "Common",
+    "flavor_text": "Its six eggs use telepathy to communicate among themselves. It is believed to carry plant genes and the genes of other species.",
+    "image_small": "https://images.pokemontcg.io/sm5/1.png",
+    "image_large": "https://images.pokemontcg.io/sm5/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm5-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm5-1"
+  },
+  {
+    "id": "xy10-1",
+    "name": "Shuckle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy10",
+    "set_name": "Fates Collide",
+    "series": "XY",
+    "number": "1",
+    "artist": "sui",
+    "rarity": "Uncommon",
+    "flavor_text": "It stores Berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
+    "image_small": "https://images.pokemontcg.io/xy10/1.png",
+    "image_large": "https://images.pokemontcg.io/xy10/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy10-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy10-1"
+  },
+  {
+    "id": "sm8-1",
+    "name": "Tangela",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm8",
+    "set_name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "number": "1",
+    "artist": "Ken Sugimori",
+    "rarity": "Common",
+    "flavor_text": "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+    "image_small": "https://images.pokemontcg.io/sm8/1.png",
+    "image_large": "https://images.pokemontcg.io/sm8/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm8-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm8-1"
+  },
+  {
+    "id": "hgss2-1",
+    "name": "Jirachi",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Psychic"
+    ],
+    "set_id": "hgss2",
+    "set_name": "HS—Unleashed",
+    "series": "HeartGold & SoulSilver",
+    "number": "1",
+    "artist": "Wataru Kawahara",
+    "rarity": "Rare Holo",
+    "flavor_text": "Generations have believed that any wish written on a note on its head will come true when it awakens.",
+    "image_small": "https://images.pokemontcg.io/hgss2/1.png",
+    "image_large": "https://images.pokemontcg.io/hgss2/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss2-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss2-1"
+  },
+  {
+    "id": "dpp-DP01",
+    "name": "Turtwig",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "dpp",
+    "set_name": "DP Black Star Promos",
+    "series": "Diamond & Pearl",
+    "number": "DP01",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Promo",
+    "flavor_text": "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
+    "image_small": "https://images.pokemontcg.io/dpp/DP01.png",
+    "image_large": "https://images.pokemontcg.io/dpp/DP01_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dpp-DP01"
+  },
+  {
+    "id": "swsh1-1",
+    "name": "Celebi V",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "V"
+    ],
+    "hp": "180",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "swsh1",
+    "set_name": "Sword & Shield",
+    "series": "Sword & Shield",
+    "number": "1",
+    "artist": "PLANETA Igarashi",
+    "rarity": "Rare Holo V",
+    "image_small": "https://images.pokemontcg.io/swsh1/1.png",
+    "image_large": "https://images.pokemontcg.io/swsh1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/swsh1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/swsh1-1"
+  },
+  {
+    "id": "basep-1",
+    "name": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Lightning"
+    ],
+    "set_id": "basep",
+    "set_name": "Wizards Black Star Promos",
+    "series": "Base",
+    "number": "1",
+    "artist": "Keiji Kinebuchi",
+    "rarity": "Promo",
+    "flavor_text": "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
+    "image_small": "https://images.pokemontcg.io/basep/1.png",
+    "image_large": "https://images.pokemontcg.io/basep/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/basep-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/basep-1"
+  },
+  {
+    "id": "swsh4-1",
+    "name": "Weedle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "40",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "swsh4",
+    "set_name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "number": "1",
+    "artist": "sui",
+    "rarity": "Common",
+    "flavor_text": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+    "image_small": "https://images.pokemontcg.io/swsh4/1.png",
+    "image_large": "https://images.pokemontcg.io/swsh4/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/swsh4-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/swsh4-1"
+  },
+  {
+    "id": "xy1-1",
+    "name": "Venusaur-EX",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "EX"
+    ],
+    "hp": "180",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy1",
+    "set_name": "XY",
+    "series": "XY",
+    "number": "1",
+    "artist": "Eske Yoshinob",
+    "rarity": "Rare Holo EX",
+    "image_small": "https://images.pokemontcg.io/xy1/1.png",
+    "image_large": "https://images.pokemontcg.io/xy1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy1-1"
+  },
+  {
+    "id": "pop1-1",
+    "name": "Blaziken",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "110",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Combusken",
+    "set_id": "pop1",
+    "set_name": "POP Series 1",
+    "series": "POP",
+    "number": "1",
+    "artist": "Katsura Tabata",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop1/1.png",
+    "image_large": "https://images.pokemontcg.io/pop1/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop1-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop1-1"
+  },
+  {
+    "id": "bw8-1",
+    "name": "Turtwig",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw8",
+    "set_name": "Plasma Storm",
+    "series": "Black & White",
+    "number": "1",
+    "artist": "Kouki Saitou",
+    "rarity": "Common",
+    "flavor_text": "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist.",
+    "image_small": "https://images.pokemontcg.io/bw8/1.png",
+    "image_large": "https://images.pokemontcg.io/bw8/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw8-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw8-1"
+  },
+  {
+    "id": "base6-1",
+    "name": "Alakazam",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "80",
+    "types": [
+      "Psychic"
+    ],
+    "evolves_from": "Kadabra",
+    "set_id": "base6",
+    "set_name": "Legendary Collection",
+    "series": "Other",
+    "number": "1",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "flavor_text": "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
+    "image_small": "https://images.pokemontcg.io/base6/1.png",
+    "image_large": "https://images.pokemontcg.io/base6/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base6-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base6-1"
+  },
+  {
+    "id": "pop9-1",
+    "name": "Garchomp",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Gabite",
+    "set_id": "pop9",
+    "set_name": "POP Series 9",
+    "series": "POP",
+    "number": "1",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare",
+    "flavor_text": "It flies at speeds equal to a jet fighter plane. It never allows its prey to escape.",
+    "image_small": "https://images.pokemontcg.io/pop9/1.png",
+    "image_large": "https://images.pokemontcg.io/pop9/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop9-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop9-1"
+  },
+  {
+    "id": "pop4-1",
+    "name": "Chimecho δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Metal"
+    ],
+    "set_id": "pop4",
+    "set_name": "POP Series 4",
+    "series": "POP",
+    "number": "1",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop4/1.png",
+    "image_large": "https://images.pokemontcg.io/pop4/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop4-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop4-1"
+  },
+  {
+    "id": "neo4-1",
+    "name": "Dark Ampharos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "70",
+    "types": [
+      "Lightning"
+    ],
+    "evolves_from": "Dark Flaaffy",
+    "set_id": "neo4",
+    "set_name": "Neo Destiny",
+    "series": "Neo",
+    "number": "1",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "flavor_text": "Its brightly lit tail can be seen for miles in the dark, even by ships on the sea.",
+    "image_small": "https://images.pokemontcg.io/neo4/1.png",
+    "image_large": "https://images.pokemontcg.io/neo4/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/neo4-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/neo4-1"
+  },
+  {
+    "id": "neo3-1",
+    "name": "Ampharos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "90",
+    "types": [
+      "Lightning"
+    ],
+    "evolves_from": "Flaaffy",
+    "set_id": "neo3",
+    "set_name": "Neo Revelation",
+    "series": "Neo",
+    "number": "1",
+    "artist": "Toshinao Aoki",
+    "rarity": "Rare Holo",
+    "flavor_text": "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon.",
+    "image_small": "https://images.pokemontcg.io/neo3/1.png",
+    "image_large": "https://images.pokemontcg.io/neo3/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/neo3-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/neo3-1"
+  },
+  {
+    "id": "pl4-1",
+    "name": "Charizard",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "140",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Charmeleon",
+    "set_id": "pl4",
+    "set_name": "Arceus",
+    "series": "Platinum",
+    "number": "1",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/pl4/1.png",
+    "image_large": "https://images.pokemontcg.io/pl4/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl4-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl4-1"
+  },
+  {
+    "id": "mcd19-4",
+    "name": "Alolan Sandshrew",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Water"
+    ],
+    "set_id": "mcd19",
+    "set_name": "McDonald's Collection 2019",
+    "series": "Other",
+    "number": "4",
+    "artist": "Shin Nagasawa",
+    "flavor_text": "An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can.",
+    "image_small": "https://images.pokemontcg.io/mcd19/4.png",
+    "image_large": "https://images.pokemontcg.io/mcd19/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/mcd19-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/mcd19-4"
+  },
+  {
+    "id": "sm115-3",
+    "name": "Butterfree",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Metapod",
+    "set_id": "sm115",
+    "set_name": "Hidden Fates",
+    "series": "Sun & Moon",
+    "number": "3",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare",
+    "flavor_text": "Its wings are covered in toxic scales. If it finds bird Pokémon going after Caterpie, Butterfree sprinkles its scales on them to drive them off.",
+    "image_small": "https://images.pokemontcg.io/sm115/3.png",
+    "image_large": "https://images.pokemontcg.io/sm115/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm115-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm115-3"
+  },
+  {
+    "id": "base3-4",
+    "name": "Dragonite",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Dragonair",
+    "set_id": "base3",
+    "set_name": "Fossil",
+    "series": "Base",
+    "number": "4",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "flavor_text": "An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans.",
+    "image_small": "https://images.pokemontcg.io/base3/4.png",
+    "image_large": "https://images.pokemontcg.io/base3/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base3-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base3-4"
+  },
+  {
+    "id": "ex9-3",
+    "name": "Exploud",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Loudred",
+    "set_id": "ex9",
+    "set_name": "Emerald",
+    "series": "EX",
+    "number": "3",
+    "artist": "Hajime Kusajima",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex9/3.png",
+    "image_large": "https://images.pokemontcg.io/ex9/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex9-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex9-3"
+  },
+  {
+    "id": "pop7-3",
+    "name": "Latias",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Colorless"
+    ],
+    "set_id": "pop7",
+    "set_name": "POP Series 7",
+    "series": "POP",
+    "number": "3",
+    "artist": "Daisuke Ito",
+    "rarity": "Rare",
+    "flavor_text": "Its body is covered with a down that can refract light in such a way that it becomes invisible.",
+    "image_small": "https://images.pokemontcg.io/pop7/3.png",
+    "image_large": "https://images.pokemontcg.io/pop7/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop7-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop7-3"
+  },
+  {
+    "id": "pop6-4",
+    "name": "Pachirisu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Lightning"
+    ],
+    "set_id": "pop6",
+    "set_name": "POP Series 6",
+    "series": "POP",
+    "number": "4",
+    "artist": "Atsuko Nishida",
+    "rarity": "Rare",
+    "flavor_text": "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+    "image_small": "https://images.pokemontcg.io/pop6/4.png",
+    "image_large": "https://images.pokemontcg.io/pop6/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop6-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop6-4"
+  },
+  {
+    "id": "det1-4",
+    "name": "Charmander",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Fire"
+    ],
+    "set_id": "det1",
+    "set_name": "Detective Pikachu",
+    "series": "Sun & Moon",
+    "number": "4",
+    "artist": "MPC Film",
+    "rarity": "Common",
+    "flavor_text": "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+    "image_small": "https://images.pokemontcg.io/det1/4.png",
+    "image_large": "https://images.pokemontcg.io/det1/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/det1-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/det1-4"
+  },
+  {
+    "id": "ex4-2",
+    "name": "Team Aqua's Crawdaunt",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Water",
+      "Darkness"
+    ],
+    "evolves_from": "Team Aqua's Corphish",
+    "set_id": "ex4",
+    "set_name": "Team Magma vs Team Aqua",
+    "series": "EX",
+    "number": "2",
+    "artist": "Nakaoka",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex4/2.png",
+    "image_large": "https://images.pokemontcg.io/ex4/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex4-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex4-2"
+  },
+  {
+    "id": "hgss1-4",
+    "name": "Gyarados",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "130",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Magikarp",
+    "set_id": "hgss1",
+    "set_name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "number": "4",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "flavor_text": "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
+    "image_small": "https://images.pokemontcg.io/hgss1/4.png",
+    "image_large": "https://images.pokemontcg.io/hgss1/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss1-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss1-4"
+  },
+  {
+    "id": "xy1-2",
+    "name": "M Venusaur-EX",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "MEGA",
+      "EX"
+    ],
+    "hp": "230",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Venusaur-EX",
+    "set_id": "xy1",
+    "set_name": "XY",
+    "series": "XY",
+    "number": "2",
+    "artist": "5ban Graphics",
+    "rarity": "Rare Holo EX",
+    "image_small": "https://images.pokemontcg.io/xy1/2.png",
+    "image_large": "https://images.pokemontcg.io/xy1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy1-2"
+  },
+  {
+    "id": "ex8-2",
+    "name": "Beautifly",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Silcoon",
+    "set_id": "ex8",
+    "set_name": "Deoxys",
+    "series": "EX",
+    "number": "2",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex8/2.png",
+    "image_large": "https://images.pokemontcg.io/ex8/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex8-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex8-2"
+  },
+  {
+    "id": "bw5-2",
+    "name": "Ivysaur",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Bulbasaur",
+    "set_id": "bw5",
+    "set_name": "Dark Explorers",
+    "series": "Black & White",
+    "number": "2",
+    "artist": "sui",
+    "rarity": "Uncommon",
+    "flavor_text": "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.",
+    "image_small": "https://images.pokemontcg.io/bw5/2.png",
+    "image_large": "https://images.pokemontcg.io/bw5/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw5-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw5-2"
+  },
+  {
+    "id": "dpp-DP02",
+    "name": "Chimchar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Fire"
+    ],
+    "set_id": "dpp",
+    "set_name": "DP Black Star Promos",
+    "series": "Diamond & Pearl",
+    "number": "DP02",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Promo",
+    "flavor_text": "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
+    "image_small": "https://images.pokemontcg.io/dpp/DP02.png",
+    "image_large": "https://images.pokemontcg.io/dpp/DP02_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dpp-DP02"
+  },
+  {
+    "id": "sm2-2",
+    "name": "Weepinbell",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Bellsprout",
+    "set_id": "sm2",
+    "set_name": "Guardians Rising",
+    "series": "Sun & Moon",
+    "number": "2",
+    "artist": "Mina Nakai",
+    "rarity": "Uncommon",
+    "flavor_text": "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+    "image_small": "https://images.pokemontcg.io/sm2/2.png",
+    "image_large": "https://images.pokemontcg.io/sm2/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm2-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm2-2"
+  },
+  {
+    "id": "pop4-2",
+    "name": "Deoxys δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Colorless"
+    ],
+    "set_id": "pop4",
+    "set_name": "POP Series 4",
+    "series": "POP",
+    "number": "2",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop4/2.png",
+    "image_large": "https://images.pokemontcg.io/pop4/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop4-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop4-2"
+  },
+  {
+    "id": "bw7-2",
+    "name": "Gloom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Oddish",
+    "set_id": "bw7",
+    "set_name": "Boundaries Crossed",
+    "series": "Black & White",
+    "number": "2",
+    "artist": "Atsuko Nishida",
+    "rarity": "Uncommon",
+    "flavor_text": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+    "image_small": "https://images.pokemontcg.io/bw7/2.png",
+    "image_large": "https://images.pokemontcg.io/bw7/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw7-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw7-2"
+  },
+  {
+    "id": "xy4-2",
+    "name": "Venomoth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Venonat",
+    "set_id": "xy4",
+    "set_name": "Phantom Forces",
+    "series": "XY",
+    "number": "2",
+    "artist": "5ban Graphics",
+    "rarity": "Rare",
+    "flavor_text": "The scales it scatters will paralyze anyone who touches them, making that person unable to stand.",
+    "image_small": "https://images.pokemontcg.io/xy4/2.png",
+    "image_large": "https://images.pokemontcg.io/xy4/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy4-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy4-2"
+  },
+  {
+    "id": "col1-3",
+    "name": "Dialga",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "100",
+    "types": [
+      "Metal"
+    ],
+    "set_id": "col1",
+    "set_name": "Call of Legends",
+    "series": "HeartGold & SoulSilver",
+    "number": "3",
+    "artist": "Ayaka Yoshida",
+    "rarity": "Rare Holo",
+    "flavor_text": "This Pokémon completely controls the flow of time. It uses its power to travel at will through the past and future.",
+    "image_small": "https://images.pokemontcg.io/col1/3.png",
+    "image_large": "https://images.pokemontcg.io/col1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/col1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/col1-3"
+  },
+  {
+    "id": "ex12-4",
+    "name": "Delcatty",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Skitty",
+    "set_id": "ex12",
+    "set_name": "Legend Maker",
+    "series": "EX",
+    "number": "4",
+    "artist": "Naoyo Kimura",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex12/4.png",
+    "image_large": "https://images.pokemontcg.io/ex12/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex12-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex12-4"
+  },
+  {
+    "id": "bw11-2",
+    "name": "Tangrowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "120",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Tangela",
+    "set_id": "bw11",
+    "set_name": "Legendary Treasures",
+    "series": "Black & White",
+    "number": "2",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare",
+    "flavor_text": "Even if one of its arms is eaten, it's fine. The Pokémon regenerates quickly and will go right back to normal.",
+    "image_small": "https://images.pokemontcg.io/bw11/2.png",
+    "image_large": "https://images.pokemontcg.io/bw11/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw11-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw11-2"
+  },
+  {
+    "id": "pl1-4",
+    "name": "Delcatty",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Skitty",
+    "set_id": "pl1",
+    "set_name": "Platinum",
+    "series": "Platinum",
+    "number": "4",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/pl1/4.png",
+    "image_large": "https://images.pokemontcg.io/pl1/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl1-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl1-4"
+  },
+  {
+    "id": "swsh35-3",
+    "name": "Kakuna",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Weedle",
+    "set_id": "swsh35",
+    "set_name": "Champion's Path",
+    "series": "Sword & Shield",
+    "number": "3",
+    "artist": "Miki Tanaka",
+    "rarity": "Common",
+    "flavor_text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+    "image_small": "https://images.pokemontcg.io/swsh35/3.png",
+    "image_large": "https://images.pokemontcg.io/swsh35/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/swsh35-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/swsh35-3"
+  },
+  {
+    "id": "base5-2",
+    "name": "Dark Arbok",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Ekans",
+    "set_id": "base5",
+    "set_name": "Team Rocket",
+    "series": "Base",
+    "number": "2",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "flavor_text": "Freezes its prey with its stare. If you should encounter one, remember not to look into its eyes.",
+    "image_small": "https://images.pokemontcg.io/base5/2.png",
+    "image_large": "https://images.pokemontcg.io/base5/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base5-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base5-2"
+  },
+  {
+    "id": "ecard2-H4",
+    "name": "Azumarill",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Marill",
+    "set_id": "ecard2",
+    "set_name": "Aquapolis",
+    "series": "E-Card",
+    "number": "H4",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ecard2/H4.png",
+    "image_large": "https://images.pokemontcg.io/ecard2/H4_hires.png",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ecard2-H4"
+  },
+  {
+    "id": "neo4-2",
+    "name": "Dark Crobat",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Dark Golbat",
+    "set_id": "neo4",
+    "set_name": "Neo Destiny",
+    "series": "Neo",
+    "number": "2",
+    "artist": "Shin-ichi Yoshikawa, CR CG gangs",
+    "rarity": "Rare Holo",
+    "flavor_text": "Although the wings it has evolved on its feet allow it to fly at high speeds, they unfortunately make it difficult to perch.",
+    "image_small": "https://images.pokemontcg.io/neo4/2.png",
+    "image_large": "https://images.pokemontcg.io/neo4/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/neo4-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/neo4-2"
+  },
+  {
+    "id": "ex3-4",
+    "name": "Flygon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Vibrava",
+    "set_id": "ex3",
+    "set_name": "Dragon",
+    "series": "EX",
+    "number": "4",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex3/4.png",
+    "image_large": "https://images.pokemontcg.io/ex3/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex3-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex3-4"
+  },
+  {
+    "id": "xy2-4",
+    "name": "Pineco",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy2",
+    "set_name": "Flashfire",
+    "series": "XY",
+    "number": "4",
+    "artist": "Suwama Chiaki",
+    "rarity": "Common",
+    "flavor_text": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+    "image_small": "https://images.pokemontcg.io/xy2/4.png",
+    "image_large": "https://images.pokemontcg.io/xy2/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy2-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy2-4"
+  },
+  {
+    "id": "pop5-2",
+    "name": "Lugia",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Psychic"
+    ],
+    "set_id": "pop5",
+    "set_name": "POP Series 5",
+    "series": "POP",
+    "number": "2",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop5/2.png",
+    "image_large": "https://images.pokemontcg.io/pop5/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop5-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop5-2"
+  },
+  {
+    "id": "base6-2",
+    "name": "Articuno",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Water"
+    ],
+    "set_id": "base6",
+    "set_name": "Legendary Collection",
+    "series": "Other",
+    "number": "2",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "flavor_text": "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+    "image_small": "https://images.pokemontcg.io/base6/2.png",
+    "image_large": "https://images.pokemontcg.io/base6/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base6-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base6-2"
+  },
+  {
+    "id": "dv1-4",
+    "name": "Dragonair",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Dragon"
+    ],
+    "evolves_from": "Dratini",
+    "set_id": "dv1",
+    "set_name": "Dragon Vault",
+    "series": "Black & White",
+    "number": "4",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "flavor_text": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+    "image_small": "https://images.pokemontcg.io/dv1/4.png",
+    "image_large": "https://images.pokemontcg.io/dv1/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dv1-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dv1-4"
+  },
+  {
+    "id": "ex11-4",
+    "name": "Espeon δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Psychic",
+      "Metal"
+    ],
+    "evolves_from": "Eevee",
+    "set_id": "ex11",
+    "set_name": "Delta Species",
+    "series": "EX",
+    "number": "4",
+    "artist": "Ryo Ueda",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex11/4.png",
+    "image_large": "https://images.pokemontcg.io/ex11/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex11-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex11-4"
+  },
+  {
+    "id": "dp4-2",
+    "name": "Cresselia",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Psychic"
+    ],
+    "set_id": "dp4",
+    "set_name": "Great Encounters",
+    "series": "Diamond & Pearl",
+    "number": "2",
+    "artist": "Ryo Ueda",
+    "rarity": "Rare Holo",
+    "flavor_text": "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+    "image_small": "https://images.pokemontcg.io/dp4/2.png",
+    "image_large": "https://images.pokemontcg.io/dp4/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp4-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp4-2"
+  },
+  {
+    "id": "dp1-2",
+    "name": "Dusknoir",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Psychic"
+    ],
+    "evolves_from": "Dusclops",
+    "set_id": "dp1",
+    "set_name": "Diamond & Pearl",
+    "series": "Diamond & Pearl",
+    "number": "2",
+    "artist": "Takabon",
+    "rarity": "Rare Holo",
+    "flavor_text": "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
+    "image_small": "https://images.pokemontcg.io/dp1/2.png",
+    "image_large": "https://images.pokemontcg.io/dp1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp1-2"
+  },
+  {
+    "id": "gym2-3",
+    "name": "Brock's Ninetales",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Brock's Vulpix",
+    "set_id": "gym2",
+    "set_name": "Gym Challenge",
+    "series": "Gym",
+    "number": "3",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/gym2/3.png",
+    "image_large": "https://images.pokemontcg.io/gym2/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/gym2-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/gym2-3"
+  },
+  {
+    "id": "pop1-2",
+    "name": "Metagross",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Metal"
+    ],
+    "evolves_from": "Metang",
+    "set_id": "pop1",
+    "set_name": "POP Series 1",
+    "series": "POP",
+    "number": "2",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop1/2.png",
+    "image_large": "https://images.pokemontcg.io/pop1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop1-2"
+  },
+  {
+    "id": "si1-3",
+    "name": "Onix",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "90",
+    "types": [
+      "Fighting"
+    ],
+    "set_id": "si1",
+    "set_name": "Southern Islands",
+    "series": "Other",
+    "number": "3",
+    "artist": "Keiko Fukuyama",
+    "flavor_text": "This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.",
+    "image_small": "https://images.pokemontcg.io/si1/3.png",
+    "image_large": "https://images.pokemontcg.io/si1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/si1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/si1-3"
+  },
+  {
+    "id": "dp3-4",
+    "name": "Entei",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Fire"
+    ],
+    "set_id": "dp3",
+    "set_name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "number": "4",
+    "artist": "Ryo Ueda",
+    "rarity": "Rare Holo",
+    "flavor_text": "It is said that when it roars, a volcano erupts somewhere around the globe.",
+    "image_small": "https://images.pokemontcg.io/dp3/4.png",
+    "image_large": "https://images.pokemontcg.io/dp3/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp3-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp3-4"
+  },
+  {
+    "id": "base4-4",
+    "name": "Charizard",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Charmeleon",
+    "set_id": "base4",
+    "set_name": "Base Set 2",
+    "series": "Base",
+    "number": "4",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "flavor_text": "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
+    "image_small": "https://images.pokemontcg.io/base4/4.png",
+    "image_large": "https://images.pokemontcg.io/base4/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base4-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base4-4"
+  },
+  {
+    "id": "pl4-2",
+    "name": "Froslass",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Snorunt",
+    "set_id": "pl4",
+    "set_name": "Arceus",
+    "series": "Platinum",
+    "number": "2",
+    "artist": "TOKIYA",
+    "rarity": "Rare Holo",
+    "flavor_text": "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
+    "image_small": "https://images.pokemontcg.io/pl4/2.png",
+    "image_large": "https://images.pokemontcg.io/pl4/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl4-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl4-2"
+  },
+  {
+    "id": "bw8-2",
+    "name": "Grotle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "100",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Turtwig",
+    "set_id": "bw8",
+    "set_name": "Plasma Storm",
+    "series": "Black & White",
+    "number": "2",
+    "artist": "Sumiyoshi Kizuki",
+    "rarity": "Uncommon",
+    "flavor_text": "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+    "image_small": "https://images.pokemontcg.io/bw8/2.png",
+    "image_large": "https://images.pokemontcg.io/bw8/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw8-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw8-2"
+  },
+  {
+    "id": "pop3-2",
+    "name": "Flareon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Eevee",
+    "set_id": "pop3",
+    "set_name": "POP Series 3",
+    "series": "POP",
+    "number": "2",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop3/2.png",
+    "image_large": "https://images.pokemontcg.io/pop3/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop3-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop3-2"
+  },
+  {
+    "id": "xy11-3",
+    "name": "Hoppip",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "40",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy11",
+    "set_name": "Steam Siege",
+    "series": "XY",
+    "number": "3",
+    "artist": "Mina Nakai",
+    "rarity": "Common",
+    "flavor_text": "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+    "image_small": "https://images.pokemontcg.io/xy11/3.png",
+    "image_large": "https://images.pokemontcg.io/xy11/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy11-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy11-3"
+  },
+  {
+    "id": "sm3-2",
+    "name": "Metapod",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Caterpie",
+    "set_id": "sm3",
+    "set_name": "Burning Shadows",
+    "series": "Sun & Moon",
+    "number": "2",
+    "artist": "Suwama Chiaki",
+    "rarity": "Uncommon",
+    "flavor_text": "Its shell is filled with its soft innards. It doesn't move much because of the risk it might carelessly spill its innards out.",
+    "image_small": "https://images.pokemontcg.io/sm3/2.png",
+    "image_large": "https://images.pokemontcg.io/sm3/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm3-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm3-2"
+  },
+  {
+    "id": "swsh1-2",
+    "name": "Roselia",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "swsh1",
+    "set_name": "Sword & Shield",
+    "series": "Sword & Shield",
+    "number": "2",
+    "artist": "sowsow",
+    "rarity": "Common",
+    "flavor_text": "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is.",
+    "image_small": "https://images.pokemontcg.io/swsh1/2.png",
+    "image_large": "https://images.pokemontcg.io/swsh1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/swsh1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/swsh1-2"
+  },
+  {
+    "id": "pop9-2",
+    "name": "Manaphy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Water"
+    ],
+    "set_id": "pop9",
+    "set_name": "POP Series 9",
+    "series": "POP",
+    "number": "2",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare",
+    "flavor_text": "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
+    "image_small": "https://images.pokemontcg.io/pop9/2.png",
+    "image_large": "https://images.pokemontcg.io/pop9/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop9-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop9-2"
+  },
+  {
+    "id": "xy7-3",
+    "name": "Vileplume",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Gloom",
+    "set_id": "xy7",
+    "set_name": "Ancient Origins",
+    "series": "XY",
+    "number": "3",
+    "artist": "Midori Harada",
+    "rarity": "Rare",
+    "flavor_text": "It has the world's largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+    "image_small": "https://images.pokemontcg.io/xy7/3.png",
+    "image_large": "https://images.pokemontcg.io/xy7/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy7-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy7-3"
+  },
+  {
+    "id": "bw10-3",
+    "name": "Lileep",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Restored"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Root Fossil Lileep",
+    "set_id": "bw10",
+    "set_name": "Plasma Blast",
+    "series": "Black & White",
+    "number": "3",
+    "artist": "Suwama Chiaki",
+    "rarity": "Uncommon",
+    "flavor_text": "It lived on the seafloor 100 million years ago and was reanimated scientifically.",
+    "image_small": "https://images.pokemontcg.io/bw10/3.png",
+    "image_large": "https://images.pokemontcg.io/bw10/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw10-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw10-3"
+  },
+  {
+    "id": "bw4-2",
+    "name": "Seedot",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "40",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw4",
+    "set_name": "Next Destinies",
+    "series": "Black & White",
+    "number": "2",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Common",
+    "flavor_text": "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
+    "image_small": "https://images.pokemontcg.io/bw4/2.png",
+    "image_large": "https://images.pokemontcg.io/bw4/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw4-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw4-2"
+  },
+  {
+    "id": "sm9-4",
+    "name": "Kakuna",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Weedle",
+    "set_id": "sm9",
+    "set_name": "Team Up",
+    "series": "Sun & Moon",
+    "number": "4",
+    "artist": "Yuka Morii",
+    "rarity": "Uncommon",
+    "flavor_text": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+    "image_small": "https://images.pokemontcg.io/sm9/4.png",
+    "image_large": "https://images.pokemontcg.io/sm9/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm9-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm9-4"
+  },
+  {
+    "id": "hgss4-4",
+    "name": "Drapion",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "100",
+    "types": [
+      "Darkness"
+    ],
+    "evolves_from": "Skorupi",
+    "set_id": "hgss4",
+    "set_name": "HS—Triumphant",
+    "series": "HeartGold & SoulSilver",
+    "number": "4",
+    "artist": "Sumiyoshi Kizuki",
+    "rarity": "Rare Holo",
+    "flavor_text": "It attacks people and Pokémon that cross the desert. This has only furthered its bad reputation.",
+    "image_small": "https://images.pokemontcg.io/hgss4/4.png",
+    "image_large": "https://images.pokemontcg.io/hgss4/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss4-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss4-4"
+  },
+  {
+    "id": "ex13-3",
+    "name": "Deoxys δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Darkness"
+    ],
+    "set_id": "ex13",
+    "set_name": "Holon Phantoms",
+    "series": "EX",
+    "number": "3",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex13/3.png",
+    "image_large": "https://images.pokemontcg.io/ex13/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex13-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex13-3"
+  },
+  {
+    "id": "sm5-2",
+    "name": "Yanma",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm5",
+    "set_name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "number": "2",
+    "artist": "Akira Komayama",
+    "rarity": "Common",
+    "flavor_text": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+    "image_small": "https://images.pokemontcg.io/sm5/2.png",
+    "image_large": "https://images.pokemontcg.io/sm5/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm5-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm5-2"
+  },
+  {
+    "id": "sm75-1",
+    "name": "Charmander",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Fire"
+    ],
+    "set_id": "sm75",
+    "set_name": "Dragon Majesty",
+    "series": "Sun & Moon",
+    "number": "1",
+    "artist": "tetsuya koizumi",
+    "rarity": "Common",
+    "flavor_text": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+    "image_small": "https://images.pokemontcg.io/sm75/1.png",
+    "image_large": "https://images.pokemontcg.io/sm75/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm75-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm75-1"
+  },
+  {
+    "id": "ex10-1",
+    "name": "Ampharos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Lightning"
+    ],
+    "evolves_from": "Flaaffy",
+    "set_id": "ex10",
+    "set_name": "Unseen Forces",
+    "series": "EX",
+    "number": "1",
+    "artist": "Kyoko Umemoto",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex10/1.png",
+    "image_large": "https://images.pokemontcg.io/ex10/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex10-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex10-1"
+  },
+  {
+    "id": "bw6-1",
+    "name": "Hoppip",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "30",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw6",
+    "set_name": "Dragons Exalted",
+    "series": "Black & White",
+    "number": "1",
+    "artist": "Kouki Saitou",
+    "rarity": "Common",
+    "flavor_text": "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+    "image_small": "https://images.pokemontcg.io/bw6/1.png",
+    "image_large": "https://images.pokemontcg.io/bw6/1_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw6-1",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw6-1"
+  },
+  {
+    "id": "si1-4",
+    "name": "Togepi",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "40",
+    "types": [
+      "Colorless"
+    ],
+    "set_id": "si1",
+    "set_name": "Southern Islands",
+    "series": "Other",
+    "number": "4",
+    "artist": "Keiko Fukuyama",
+    "flavor_text": "This Pokémon is still immature. When threatened, it releases poison from its head and tries to drive its enemies away.",
+    "image_small": "https://images.pokemontcg.io/si1/4.png",
+    "image_large": "https://images.pokemontcg.io/si1/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/si1-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/si1-4"
+  },
+  {
+    "id": "bw5-3",
+    "name": "Venusaur",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "140",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Ivysaur",
+    "set_id": "bw5",
+    "set_name": "Dark Explorers",
+    "series": "Black & White",
+    "number": "3",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare Holo",
+    "flavor_text": "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+    "image_small": "https://images.pokemontcg.io/bw5/3.png",
+    "image_large": "https://images.pokemontcg.io/bw5/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw5-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw5-3"
+  },
+  {
+    "id": "dp1-3",
+    "name": "Electivire",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "100",
+    "types": [
+      "Lightning"
+    ],
+    "evolves_from": "Electabuzz",
+    "set_id": "dp1",
+    "set_name": "Diamond & Pearl",
+    "series": "Diamond & Pearl",
+    "number": "3",
+    "artist": "Nakaoka",
+    "rarity": "Rare Holo",
+    "flavor_text": "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
+    "image_small": "https://images.pokemontcg.io/dp1/3.png",
+    "image_large": "https://images.pokemontcg.io/dp1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp1-3"
+  },
+  {
+    "id": "xy11-4",
+    "name": "Skiploom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Hoppip",
+    "set_id": "xy11",
+    "set_name": "Steam Siege",
+    "series": "XY",
+    "number": "4",
+    "artist": "Eri Yamaki",
+    "rarity": "Uncommon",
+    "flavor_text": "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
+    "image_small": "https://images.pokemontcg.io/xy11/4.png",
+    "image_large": "https://images.pokemontcg.io/xy11/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy11-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy11-4"
+  },
+  {
+    "id": "hgss4-5",
+    "name": "Mamoswine",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "140",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Piloswine",
+    "set_id": "hgss4",
+    "set_name": "HS—Triumphant",
+    "series": "HeartGold & SoulSilver",
+    "number": "5",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "flavor_text": "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time.",
+    "image_small": "https://images.pokemontcg.io/hgss4/5.png",
+    "image_large": "https://images.pokemontcg.io/hgss4/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss4-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss4-5"
+  },
+  {
+    "id": "sm12-3",
+    "name": "Gloom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Oddish",
+    "set_id": "sm12",
+    "set_name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "number": "3",
+    "artist": "sui",
+    "rarity": "Uncommon",
+    "flavor_text": "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink.",
+    "image_small": "https://images.pokemontcg.io/sm12/3.png",
+    "image_large": "https://images.pokemontcg.io/sm12/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm12-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm12-3"
+  },
+  {
+    "id": "ex7-4",
+    "name": "Dark Electrode",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Lightning",
+      "Darkness"
+    ],
+    "evolves_from": "Voltorb",
+    "set_id": "ex7",
+    "set_name": "Team Rocket Returns",
+    "series": "EX",
+    "number": "4",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex7/4.png",
+    "image_large": "https://images.pokemontcg.io/ex7/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex7-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex7-4"
+  },
+  {
+    "id": "sm5-3",
+    "name": "Yanmega",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "120",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Yanma",
+    "set_id": "sm5",
+    "set_name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "number": "3",
+    "artist": "SATOSHI NAKAI",
+    "rarity": "Uncommon",
+    "flavor_text": "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
+    "image_small": "https://images.pokemontcg.io/sm5/3.png",
+    "image_large": "https://images.pokemontcg.io/sm5/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm5-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm5-3"
+  },
+  {
+    "id": "swsh1-3",
+    "name": "Roselia",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "swsh1",
+    "set_name": "Sword & Shield",
+    "series": "Sword & Shield",
+    "number": "3",
+    "artist": "Naoyo Kimura",
+    "rarity": "Common",
+    "flavor_text": "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is.",
+    "image_small": "https://images.pokemontcg.io/swsh1/3.png",
+    "image_large": "https://images.pokemontcg.io/swsh1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/swsh1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/swsh1-3"
+  },
+  {
+    "id": "pl3-4",
+    "name": "Electivire FB",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "SP"
+    ],
+    "hp": "90",
+    "types": [
+      "Lightning"
+    ],
+    "set_id": "pl3",
+    "set_name": "Supreme Victors",
+    "series": "Platinum",
+    "number": "4",
+    "artist": "Hironobu Yoshida",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/pl3/4.png",
+    "image_large": "https://images.pokemontcg.io/pl3/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl3-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl3-4"
+  },
+  {
+    "id": "hgss1-5",
+    "name": "Hitmontop",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Fighting"
+    ],
+    "set_id": "hgss1",
+    "set_name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "number": "5",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "flavor_text": "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
+    "image_small": "https://images.pokemontcg.io/hgss1/5.png",
+    "image_large": "https://images.pokemontcg.io/hgss1/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss1-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss1-5"
+  },
+  {
+    "id": "ex12-5",
+    "name": "Gengar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Psychic"
+    ],
+    "evolves_from": "Haunter",
+    "set_id": "ex12",
+    "set_name": "Legend Maker",
+    "series": "EX",
+    "number": "5",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex12/5.png",
+    "image_large": "https://images.pokemontcg.io/ex12/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex12-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex12-5"
+  },
+  {
+    "id": "pl4-3",
+    "name": "Heatran",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "100",
+    "types": [
+      "Fire"
+    ],
+    "set_id": "pl4",
+    "set_name": "Arceus",
+    "series": "Platinum",
+    "number": "3",
+    "artist": "Keiko Moritsugu",
+    "rarity": "Rare Holo",
+    "flavor_text": "Its body is made of rugged steel. However, it is partially melted in spots because of its own heat.",
+    "image_small": "https://images.pokemontcg.io/pl4/3.png",
+    "image_large": "https://images.pokemontcg.io/pl4/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl4-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl4-3"
+  },
+  {
+    "id": "bw10-4",
+    "name": "Cradily",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "120",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Lileep",
+    "set_id": "bw10",
+    "set_name": "Plasma Blast",
+    "series": "Black & White",
+    "number": "4",
+    "artist": "kawayoo",
+    "rarity": "Rare",
+    "flavor_text": "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+    "image_small": "https://images.pokemontcg.io/bw10/4.png",
+    "image_large": "https://images.pokemontcg.io/bw10/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw10-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw10-4"
+  },
+  {
+    "id": "pop4-3",
+    "name": "Flygon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Fighting"
+    ],
+    "evolves_from": "Vibrava",
+    "set_id": "pop4",
+    "set_name": "POP Series 4",
+    "series": "POP",
+    "number": "3",
+    "artist": "Hisao Nakamura",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop4/3.png",
+    "image_large": "https://images.pokemontcg.io/pop4/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop4-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop4-3"
+  },
+  {
+    "id": "ex3-5",
+    "name": "Golem",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Fighting"
+    ],
+    "evolves_from": "Graveler",
+    "set_id": "ex3",
+    "set_name": "Dragon",
+    "series": "EX",
+    "number": "5",
+    "artist": "Hisao Nakamura",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex3/5.png",
+    "image_large": "https://images.pokemontcg.io/ex3/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex3-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex3-5"
+  },
+  {
+    "id": "swsh4-2",
+    "name": "Kakuna",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Weedle",
+    "set_id": "swsh4",
+    "set_name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "number": "2",
+    "artist": "Naoyo Kimura",
+    "rarity": "Uncommon",
+    "flavor_text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+    "image_small": "https://images.pokemontcg.io/swsh4/2.png",
+    "image_large": "https://images.pokemontcg.io/swsh4/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/swsh4-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/swsh4-2"
+  },
+  {
+    "id": "xy5-4",
+    "name": "Tangela",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy5",
+    "set_name": "Primal Clash",
+    "series": "XY",
+    "number": "4",
+    "artist": "match",
+    "rarity": "Common",
+    "flavor_text": "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+    "image_small": "https://images.pokemontcg.io/xy5/4.png",
+    "image_large": "https://images.pokemontcg.io/xy5/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy5-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy5-4"
+  },
+  {
+    "id": "ex9-4",
+    "name": "Gardevoir",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Psychic"
+    ],
+    "evolves_from": "Kirlia",
+    "set_id": "ex9",
+    "set_name": "Emerald",
+    "series": "EX",
+    "number": "4",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex9/4.png",
+    "image_large": "https://images.pokemontcg.io/ex9/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex9-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex9-4"
+  },
+  {
+    "id": "ex11-5",
+    "name": "Flareon δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Fire",
+      "Metal"
+    ],
+    "evolves_from": "Eevee",
+    "set_id": "ex11",
+    "set_name": "Delta Species",
+    "series": "EX",
+    "number": "5",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex11/5.png",
+    "image_large": "https://images.pokemontcg.io/ex11/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex11-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex11-5"
+  },
+  {
+    "id": "ex4-3",
+    "name": "Team Aqua's Kyogre",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "100",
+    "types": [
+      "Water",
+      "Darkness"
+    ],
+    "set_id": "ex4",
+    "set_name": "Team Magma vs Team Aqua",
+    "series": "EX",
+    "number": "3",
+    "artist": "K. Hoshiba",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex4/3.png",
+    "image_large": "https://images.pokemontcg.io/ex4/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex4-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex4-3"
+  },
+  {
+    "id": "base3-5",
+    "name": "Gengar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "80",
+    "types": [
+      "Psychic"
+    ],
+    "evolves_from": "Haunter",
+    "set_id": "base3",
+    "set_name": "Fossil",
+    "series": "Base",
+    "number": "5",
+    "artist": "Keiji Kinebuchi",
+    "rarity": "Rare Holo",
+    "flavor_text": "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright.",
+    "image_small": "https://images.pokemontcg.io/base3/5.png",
+    "image_large": "https://images.pokemontcg.io/base3/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base3-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base3-5"
+  },
+  {
+    "id": "dv1-5",
+    "name": "Dragonite",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "150",
+    "types": [
+      "Dragon"
+    ],
+    "evolves_from": "Dragonair",
+    "set_id": "dv1",
+    "set_name": "Dragon Vault",
+    "series": "Black & White",
+    "number": "5",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "flavor_text": "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+    "image_small": "https://images.pokemontcg.io/dv1/5.png",
+    "image_large": "https://images.pokemontcg.io/dv1/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dv1-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dv1-5"
+  },
+  {
+    "id": "dp4-3",
+    "name": "Darkrai",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Darkness"
+    ],
+    "set_id": "dp4",
+    "set_name": "Great Encounters",
+    "series": "Diamond & Pearl",
+    "number": "3",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare Holo",
+    "flavor_text": "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+    "image_small": "https://images.pokemontcg.io/dp4/3.png",
+    "image_large": "https://images.pokemontcg.io/dp4/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp4-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp4-3"
+  },
+  {
+    "id": "dp3-5",
+    "name": "Flygon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Fighting"
+    ],
+    "evolves_from": "Vibrava",
+    "set_id": "dp3",
+    "set_name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "number": "5",
+    "artist": "Daisuke Ito",
+    "rarity": "Rare Holo",
+    "flavor_text": "It whips up sandstorms with powerful flaps of its wings. It is known as \"The Desert Spirit.\"",
+    "image_small": "https://images.pokemontcg.io/dp3/5.png",
+    "image_large": "https://images.pokemontcg.io/dp3/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp3-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp3-5"
+  },
+  {
+    "id": "bw1-3",
+    "name": "Servine",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Snivy",
+    "set_id": "bw1",
+    "set_name": "Black & White",
+    "series": "Black & White",
+    "number": "3",
+    "artist": "Kagemaru Himeno",
+    "rarity": "Uncommon",
+    "flavor_text": "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
+    "image_small": "https://images.pokemontcg.io/bw1/3.png",
+    "image_large": "https://images.pokemontcg.io/bw1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw1-3"
+  },
+  {
+    "id": "ecard2-H5",
+    "name": "Bellossom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "90",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Gloom",
+    "set_id": "ecard2",
+    "set_name": "Aquapolis",
+    "series": "E-Card",
+    "number": "H5",
+    "artist": "Sumiyoshi Kizuki",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ecard2/H5.png",
+    "image_large": "https://images.pokemontcg.io/ecard2/H5_hires.png",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ecard2-H5"
+  },
+  {
+    "id": "pop1-3",
+    "name": "Rayquaza",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Colorless"
+    ],
+    "set_id": "pop1",
+    "set_name": "POP Series 1",
+    "series": "POP",
+    "number": "3",
+    "artist": "Katsura Tabata",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop1/3.png",
+    "image_large": "https://images.pokemontcg.io/pop1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop1-3"
+  },
+  {
+    "id": "gym2-4",
+    "name": "Erika's Venusaur",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "90",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Erika's Ivysaur",
+    "set_id": "gym2",
+    "set_name": "Gym Challenge",
+    "series": "Gym",
+    "number": "4",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/gym2/4.png",
+    "image_large": "https://images.pokemontcg.io/gym2/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/gym2-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/gym2-4"
+  },
+  {
+    "id": "xy4-3",
+    "name": "Yanma",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy4",
+    "set_name": "Phantom Forces",
+    "series": "XY",
+    "number": "3",
+    "artist": "Shin Nagasawa",
+    "rarity": "Common",
+    "flavor_text": "Its eyes can see 360 degrees without moving its head. It won't miss prey—even those behind it.",
+    "image_small": "https://images.pokemontcg.io/xy4/3.png",
+    "image_large": "https://images.pokemontcg.io/xy4/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy4-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy4-3"
+  },
+  {
+    "id": "ex10-2",
+    "name": "Ariados",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Spinarak",
+    "set_id": "ex10",
+    "set_name": "Unseen Forces",
+    "series": "EX",
+    "number": "2",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex10/2.png",
+    "image_large": "https://images.pokemontcg.io/ex10/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex10-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex10-2"
+  },
+  {
+    "id": "xy7-4",
+    "name": "Bellossom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Gloom",
+    "set_id": "xy7",
+    "set_name": "Ancient Origins",
+    "series": "XY",
+    "number": "4",
+    "artist": "Mizue",
+    "rarity": "Uncommon",
+    "flavor_text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+    "image_small": "https://images.pokemontcg.io/xy7/4.png",
+    "image_large": "https://images.pokemontcg.io/xy7/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy7-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy7-4"
+  },
+  {
+    "id": "pl1-5",
+    "name": "Dialga",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "100",
+    "types": [
+      "Metal"
+    ],
+    "set_id": "pl1",
+    "set_name": "Platinum",
+    "series": "Platinum",
+    "number": "5",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "flavor_text": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+    "image_small": "https://images.pokemontcg.io/pl1/5.png",
+    "image_large": "https://images.pokemontcg.io/pl1/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl1-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl1-5"
+  },
+  {
+    "id": "pop3-3",
+    "name": "Jolteon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Lightning"
+    ],
+    "evolves_from": "Eevee",
+    "set_id": "pop3",
+    "set_name": "POP Series 3",
+    "series": "POP",
+    "number": "3",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare",
+    "image_small": "https://images.pokemontcg.io/pop3/3.png",
+    "image_large": "https://images.pokemontcg.io/pop3/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop3-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop3-3"
+  },
+  {
+    "id": "ex8-3",
+    "name": "Breloom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Fighting"
+    ],
+    "evolves_from": "Shroomish",
+    "set_id": "ex8",
+    "set_name": "Deoxys",
+    "series": "EX",
+    "number": "3",
+    "artist": "Hajime Kusajima",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex8/3.png",
+    "image_large": "https://images.pokemontcg.io/ex8/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex8-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex8-3"
+  },
+  {
+    "id": "basep-2",
+    "name": "Electabuzz",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Lightning"
+    ],
+    "set_id": "basep",
+    "set_name": "Wizards Black Star Promos",
+    "series": "Base",
+    "number": "2",
+    "artist": "Ken Sugimori",
+    "rarity": "Promo",
+    "flavor_text": "A wild Pokémon with a short temper. It is able to distinguish colors, and likes the color red.",
+    "image_small": "https://images.pokemontcg.io/basep/2.png",
+    "image_large": "https://images.pokemontcg.io/basep/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/basep-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/basep-2"
+  },
+  {
+    "id": "base6-3",
+    "name": "Charizard",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Charmeleon",
+    "set_id": "base6",
+    "set_name": "Legendary Collection",
+    "series": "Other",
+    "number": "3",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "flavor_text": "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
+    "image_small": "https://images.pokemontcg.io/base6/3.png",
+    "image_large": "https://images.pokemontcg.io/base6/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base6-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base6-3"
+  },
+  {
+    "id": "bw4-3",
+    "name": "Kricketot",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw4",
+    "set_name": "Next Destinies",
+    "series": "Black & White",
+    "number": "3",
+    "artist": "MAHOU",
+    "rarity": "Common",
+    "flavor_text": "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.",
+    "image_small": "https://images.pokemontcg.io/bw4/3.png",
+    "image_large": "https://images.pokemontcg.io/bw4/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw4-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw4-3"
+  },
+  {
+    "id": "hgss2-2",
+    "name": "Magmortar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "110",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Magmar",
+    "set_id": "hgss2",
+    "set_name": "HS—Unleashed",
+    "series": "HeartGold & SoulSilver",
+    "number": "2",
+    "artist": "Hajime Kusajima",
+    "rarity": "Rare Holo",
+    "flavor_text": "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles.",
+    "image_small": "https://images.pokemontcg.io/hgss2/2.png",
+    "image_large": "https://images.pokemontcg.io/hgss2/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/hgss2-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/hgss2-2"
+  },
+  {
+    "id": "bw11-3",
+    "name": "Shuckle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "bw11",
+    "set_name": "Legendary Treasures",
+    "series": "Black & White",
+    "number": "3",
+    "artist": "MAHOU",
+    "rarity": "Uncommon",
+    "flavor_text": "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
+    "image_small": "https://images.pokemontcg.io/bw11/3.png",
+    "image_large": "https://images.pokemontcg.io/bw11/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw11-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw11-3"
+  },
+  {
+    "id": "pop7-4",
+    "name": "Latios",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "90",
+    "types": [
+      "Colorless"
+    ],
+    "set_id": "pop7",
+    "set_name": "POP Series 7",
+    "series": "POP",
+    "number": "4",
+    "artist": "Daisuke Ito",
+    "rarity": "Rare",
+    "flavor_text": "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+    "image_small": "https://images.pokemontcg.io/pop7/4.png",
+    "image_large": "https://images.pokemontcg.io/pop7/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop7-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop7-4"
+  },
+  {
+    "id": "ru1-4",
+    "name": "Heatran",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "110",
+    "types": [
+      "Fire"
+    ],
+    "set_id": "ru1",
+    "set_name": "Pokémon Rumble",
+    "series": "Other",
+    "number": "4",
+    "artist": "Pokemon Rumble",
+    "image_small": "https://images.pokemontcg.io/ru1/4.png",
+    "image_large": "https://images.pokemontcg.io/ru1/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ru1-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ru1-4"
+  },
+  {
+    "id": "neo3-2",
+    "name": "Blissey",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "120",
+    "types": [
+      "Colorless"
+    ],
+    "evolves_from": "Chansey",
+    "set_id": "neo3",
+    "set_name": "Neo Revelation",
+    "series": "Neo",
+    "number": "2",
+    "artist": "Yuka Morii",
+    "rarity": "Rare Holo",
+    "flavor_text": "Anyone who takes even one bite of Blissey's egg becomes unfailingly caring and pleasant to everyone.",
+    "image_small": "https://images.pokemontcg.io/neo3/2.png",
+    "image_large": "https://images.pokemontcg.io/neo3/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/neo3-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/neo3-2"
+  },
+  {
+    "id": "mcd19-5",
+    "name": "Lapras",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "120",
+    "types": [
+      "Water"
+    ],
+    "set_id": "mcd19",
+    "set_name": "McDonald's Collection 2019",
+    "series": "Other",
+    "number": "5",
+    "artist": "Saya Tsuruta",
+    "flavor_text": "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them.",
+    "image_small": "https://images.pokemontcg.io/mcd19/5.png",
+    "image_large": "https://images.pokemontcg.io/mcd19/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/mcd19-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/mcd19-5"
+  },
+  {
+    "id": "sm8-2",
+    "name": "Tangrowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "140",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Tangela",
+    "set_id": "sm8",
+    "set_name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "number": "2",
+    "artist": "Atsuko Nishida",
+    "rarity": "Rare",
+    "flavor_text": "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
+    "image_small": "https://images.pokemontcg.io/sm8/2.png",
+    "image_large": "https://images.pokemontcg.io/sm8/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm8-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm8-2"
+  },
+  {
+    "id": "sm75-2",
+    "name": "Charmeleon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Charmander",
+    "set_id": "sm75",
+    "set_name": "Dragon Majesty",
+    "series": "Sun & Moon",
+    "number": "2",
+    "artist": "kodama",
+    "rarity": "Uncommon",
+    "flavor_text": "When it swings its burning tail, it elevates the air temperature to unbearably high levels.",
+    "image_small": "https://images.pokemontcg.io/sm75/2.png",
+    "image_large": "https://images.pokemontcg.io/sm75/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm75-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm75-2"
+  },
+  {
+    "id": "sm9-5",
+    "name": "Beedrill",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Kakuna",
+    "set_id": "sm9",
+    "set_name": "Team Up",
+    "series": "Sun & Moon",
+    "number": "5",
+    "artist": "You Iribi",
+    "rarity": "Rare",
+    "flavor_text": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+    "image_small": "https://images.pokemontcg.io/sm9/5.png",
+    "image_large": "https://images.pokemontcg.io/sm9/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm9-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm9-5"
+  },
+  {
+    "id": "bw6-2",
+    "name": "Skiploom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Hoppip",
+    "set_id": "bw6",
+    "set_name": "Dragons Exalted",
+    "series": "Black & White",
+    "number": "2",
+    "artist": "Suwama Chiaki",
+    "rarity": "Uncommon",
+    "flavor_text": "It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible.",
+    "image_small": "https://images.pokemontcg.io/bw6/2.png",
+    "image_large": "https://images.pokemontcg.io/bw6/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw6-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw6-2"
+  },
+  {
+    "id": "neo4-3",
+    "name": "Dark Donphan",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "60",
+    "types": [
+      "Fighting"
+    ],
+    "evolves_from": "Phanpy",
+    "set_id": "neo4",
+    "set_name": "Neo Destiny",
+    "series": "Neo",
+    "number": "3",
+    "artist": "Shin-ichi Yoshida",
+    "rarity": "Rare Holo",
+    "flavor_text": "The larger its tusks, the higher its status in the herd.",
+    "image_small": "https://images.pokemontcg.io/neo4/3.png",
+    "image_large": "https://images.pokemontcg.io/neo4/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/neo4-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/neo4-3"
+  },
+  {
+    "id": "bw7-3",
+    "name": "Vileplume",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "140",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Gloom",
+    "set_id": "bw7",
+    "set_name": "Boundaries Crossed",
+    "series": "Black & White",
+    "number": "3",
+    "artist": "Shin Nagasawa",
+    "rarity": "Rare Holo",
+    "flavor_text": "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+    "image_small": "https://images.pokemontcg.io/bw7/3.png",
+    "image_large": "https://images.pokemontcg.io/bw7/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/bw7-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/bw7-3"
+  },
+  {
+    "id": "swsh35-4",
+    "name": "Beedrill",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "140",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Kakuna",
+    "set_id": "swsh35",
+    "set_name": "Champion's Path",
+    "series": "Sword & Shield",
+    "number": "4",
+    "artist": "Hideki Ishikawa",
+    "rarity": "Uncommon",
+    "flavor_text": "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear.",
+    "image_small": "https://images.pokemontcg.io/swsh35/4.png",
+    "image_large": "https://images.pokemontcg.io/swsh35/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/swsh35-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/swsh35-4"
+  },
+  {
+    "id": "pop9-3",
+    "name": "Raichu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Lightning"
+    ],
+    "evolves_from": "Pikachu",
+    "set_id": "pop9",
+    "set_name": "POP Series 9",
+    "series": "POP",
+    "number": "3",
+    "artist": "Midori Harada",
+    "rarity": "Rare",
+    "flavor_text": "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.",
+    "image_small": "https://images.pokemontcg.io/pop9/3.png",
+    "image_large": "https://images.pokemontcg.io/pop9/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop9-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop9-3"
+  },
+  {
+    "id": "dpp-DP03",
+    "name": "Piplup",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Water"
+    ],
+    "set_id": "dpp",
+    "set_name": "DP Black Star Promos",
+    "series": "Diamond & Pearl",
+    "number": "DP03",
+    "artist": "Atsuko Nishida",
+    "rarity": "Promo",
+    "flavor_text": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+    "image_small": "https://images.pokemontcg.io/dpp/DP03.png",
+    "image_large": "https://images.pokemontcg.io/dpp/DP03_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dpp-DP03"
+  },
+  {
+    "id": "xy10-2",
+    "name": "Burmy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy10",
+    "set_name": "Fates Collide",
+    "series": "XY",
+    "number": "2",
+    "artist": "Kouki Saitou",
+    "rarity": "Common",
+    "flavor_text": "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
+    "image_small": "https://images.pokemontcg.io/xy10/2.png",
+    "image_large": "https://images.pokemontcg.io/xy10/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy10-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy10-2"
+  },
+  {
+    "id": "sm115-4",
+    "name": "Paras",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "sm115",
+    "set_name": "Hidden Fates",
+    "series": "Sun & Moon",
+    "number": "4",
+    "artist": "OOYAMA",
+    "rarity": "Common",
+    "flavor_text": "Whether it's due to a lack of moisture or a lack of nutrients, in Alola the mushrooms on Paras don't grow up quite right.",
+    "image_small": "https://images.pokemontcg.io/sm115/4.png",
+    "image_large": "https://images.pokemontcg.io/sm115/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm115-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm115-4"
+  },
+  {
+    "id": "base1-2",
+    "name": "Blastoise",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "100",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Wartortle",
+    "set_id": "base1",
+    "set_name": "Base",
+    "series": "Base",
+    "number": "2",
+    "artist": "Ken Sugimori",
+    "rarity": "Rare Holo",
+    "flavor_text": "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.",
+    "image_small": "https://images.pokemontcg.io/base1/2.png",
+    "image_large": "https://images.pokemontcg.io/base1/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/base1-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/base1-2"
+  },
+  {
+    "id": "sm3-3",
+    "name": "Butterfree",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Metapod",
+    "set_id": "sm3",
+    "set_name": "Burning Shadows",
+    "series": "Sun & Moon",
+    "number": "3",
+    "artist": "Shin Nagasawa",
+    "rarity": "Rare",
+    "flavor_text": "Close examination of its large eyes reveals that each eye is composed of a myriad of tiny eyes.",
+    "image_small": "https://images.pokemontcg.io/sm3/3.png",
+    "image_large": "https://images.pokemontcg.io/sm3/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/sm3-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/sm3-3"
+  },
+  {
+    "id": "xy2-5",
+    "name": "Seedot",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy2",
+    "set_name": "Flashfire",
+    "series": "XY",
+    "number": "5",
+    "artist": "Naoyo Kimura",
+    "rarity": "Common",
+    "flavor_text": "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall.",
+    "image_small": "https://images.pokemontcg.io/xy2/5.png",
+    "image_large": "https://images.pokemontcg.io/xy2/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy2-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy2-5"
+  },
+  {
+    "id": "xy1-3",
+    "name": "Weedle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "set_id": "xy1",
+    "set_name": "XY",
+    "series": "XY",
+    "number": "3",
+    "artist": "Suwama Chiaki",
+    "rarity": "Common",
+    "flavor_text": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+    "image_small": "https://images.pokemontcg.io/xy1/3.png",
+    "image_large": "https://images.pokemontcg.io/xy1/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy1-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy1-3"
+  },
+  {
+    "id": "ex14-2",
+    "name": "Blastoise δ",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "110",
+    "types": [
+      "Fighting",
+      "Metal"
+    ],
+    "evolves_from": "Wartortle",
+    "set_id": "ex14",
+    "set_name": "Crystal Guardians",
+    "series": "EX",
+    "number": "2",
+    "artist": "Masakazu Fukuda",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex14/2.png",
+    "image_large": "https://images.pokemontcg.io/ex14/2_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex14-2",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex14-2"
+  },
+  {
+    "id": "det1-5",
+    "name": "Charizard",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "180",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Charmeleon",
+    "set_id": "det1",
+    "set_name": "Detective Pikachu",
+    "series": "Sun & Moon",
+    "number": "5",
+    "artist": "Framestore",
+    "rarity": "Rare Ultra",
+    "flavor_text": "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+    "image_small": "https://images.pokemontcg.io/det1/5.png",
+    "image_large": "https://images.pokemontcg.io/det1/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/det1-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/det1-5"
+  },
+  {
+    "id": "pl1-6",
+    "name": "Dialga",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "100",
+    "types": [
+      "Metal"
+    ],
+    "set_id": "pl1",
+    "set_name": "Platinum",
+    "series": "Platinum",
+    "number": "6",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare Holo",
+    "flavor_text": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+    "image_small": "https://images.pokemontcg.io/pl1/6.png",
+    "image_large": "https://images.pokemontcg.io/pl1/6_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pl1-6",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pl1-6"
+  },
+  {
+    "id": "dpp-DP04",
+    "name": "Pachirisu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Lightning"
+    ],
+    "set_id": "dpp",
+    "set_name": "DP Black Star Promos",
+    "series": "Diamond & Pearl",
+    "number": "DP04",
+    "artist": "Atsuko Nishida",
+    "rarity": "Promo",
+    "flavor_text": "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+    "image_small": "https://images.pokemontcg.io/dpp/DP04.png",
+    "image_large": "https://images.pokemontcg.io/dpp/DP04_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dpp-DP04"
+  },
+  {
+    "id": "xy5-5",
+    "name": "Tangrowth",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "130",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Tangela",
+    "set_id": "xy5",
+    "set_name": "Primal Clash",
+    "series": "XY",
+    "number": "5",
+    "artist": "MAHOU",
+    "rarity": "Rare",
+    "flavor_text": "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
+    "image_small": "https://images.pokemontcg.io/xy5/5.png",
+    "image_large": "https://images.pokemontcg.io/xy5/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy5-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy5-5"
+  },
+  {
+    "id": "pop6-5",
+    "name": "Rampardos",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "120",
+    "types": [
+      "Fighting"
+    ],
+    "evolves_from": "Cranidos",
+    "set_id": "pop6",
+    "set_name": "POP Series 6",
+    "series": "POP",
+    "number": "5",
+    "artist": "Kazuyuki Kano",
+    "rarity": "Rare",
+    "flavor_text": "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
+    "image_small": "https://images.pokemontcg.io/pop6/5.png",
+    "image_large": "https://images.pokemontcg.io/pop6/5_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/pop6-5",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/pop6-5"
+  },
+  {
+    "id": "xy2-6",
+    "name": "Nuzleaf",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Grass"
+    ],
+    "evolves_from": "Seedot",
+    "set_id": "xy2",
+    "set_name": "Flashfire",
+    "series": "XY",
+    "number": "6",
+    "artist": "Midori Harada",
+    "rarity": "Uncommon",
+    "flavor_text": "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+    "image_small": "https://images.pokemontcg.io/xy2/6.png",
+    "image_large": "https://images.pokemontcg.io/xy2/6_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/xy2-6",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/xy2-6"
+  },
+  {
+    "id": "ex14-3",
+    "name": "Camerupt",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Numel",
+    "set_id": "ex14",
+    "set_name": "Crystal Guardians",
+    "series": "EX",
+    "number": "3",
+    "artist": "Mitsuhiro Arita",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex14/3.png",
+    "image_large": "https://images.pokemontcg.io/ex14/3_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex14-3",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex14-3"
+  },
+  {
+    "id": "dv1-6",
+    "name": "Bagon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Dragon"
+    ],
+    "set_id": "dv1",
+    "set_name": "Dragon Vault",
+    "series": "Black & White",
+    "number": "6",
+    "artist": "Kouki Saitou",
+    "rarity": "Rare Holo",
+    "flavor_text": "Dreaming of one day flying, it practices by leaping off cliffs every day.",
+    "image_small": "https://images.pokemontcg.io/dv1/6.png",
+    "image_large": "https://images.pokemontcg.io/dv1/6_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dv1-6",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dv1-6"
+  },
+  {
+    "id": "ex8-4",
+    "name": "Camerupt",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Numel",
+    "set_id": "ex8",
+    "set_name": "Deoxys",
+    "series": "EX",
+    "number": "4",
+    "artist": "Tomokazu Komiya",
+    "rarity": "Rare Holo",
+    "image_small": "https://images.pokemontcg.io/ex8/4.png",
+    "image_large": "https://images.pokemontcg.io/ex8/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/ex8-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/ex8-4"
+  },
+  {
+    "id": "dp4-4",
+    "name": "Darkrai",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Darkness"
+    ],
+    "set_id": "dp4",
+    "set_name": "Great Encounters",
+    "series": "Diamond & Pearl",
+    "number": "4",
+    "artist": "Ryo Ueda",
+    "rarity": "Rare Holo",
+    "flavor_text": "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+    "image_small": "https://images.pokemontcg.io/dp4/4.png",
+    "image_large": "https://images.pokemontcg.io/dp4/4_hires.png",
+    "tcgplayer_url": "https://prices.pokemontcg.io/tcgplayer/dp4-4",
+    "cardmarket_url": "https://prices.pokemontcg.io/cardmarket/dp4-4"
+  }
+]
