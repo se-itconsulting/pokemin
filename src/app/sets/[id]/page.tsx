@@ -33,18 +33,6 @@ export default function SetDetailsPage() {
     }
   }, [id])
 
-  if (!mounted) return null;
-
-  const getPrice = (card: PokemonCard) => {
-    if (!card.tcgplayer?.prices) return "N/A"
-    const prices = card.tcgplayer.prices;
-    const market = prices.holofoil?.market || prices.normal?.market || prices.reverseHolofoil?.market || prices['1stEditionHolofoil']?.market;
-    if (market) {
-      return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(market);
-    }
-    return "N/A"
-  }
-
   const uniqueRarities = React.useMemo(() => {
     const rarities = new Set<string>();
     cards.forEach(card => {
@@ -57,6 +45,18 @@ export default function SetDetailsPage() {
     if (selectedRarity === "All") return cards;
     return cards.filter(card => card.rarity === selectedRarity);
   }, [cards, selectedRarity]);
+
+  if (!mounted) return null;
+
+  const getPrice = (card: PokemonCard) => {
+    if (!card.tcgplayer?.prices) return "N/A"
+    const prices = card.tcgplayer.prices;
+    const market = prices.holofoil?.market || prices.normal?.market || prices.reverseHolofoil?.market || prices['1stEditionHolofoil']?.market;
+    if (market) {
+      return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(market);
+    }
+    return "N/A"
+  }
 
   return (
     <div className="flex h-screen overflow-hidden bg-background">

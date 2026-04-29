@@ -8,10 +8,21 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { ScrollArea } from "@/components/ui/scroll-area"
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 import { 
-  Bot, LayoutDashboard, ChevronLeft, Sun, Moon, Sparkles, Image as ImageIcon, Loader2, Upload
+  Bot, LayoutDashboard, ChevronLeft, Sun, Moon, Sparkles, Image as ImageIcon, Loader2, Upload, Camera, Package
 } from "lucide-react"
+
+interface PortfolioItem {
+  id: string;
+  name: string;
+  set: string;
+  condition: string;
+  estimatedValueUSD: number;
+  reasoning: string;
+  imagePreview: string;
+  type: "Card" | "Sealed Product" | "Unknown";
+}
 
 export default function PortfolioPage() {
   const router = useRouter()
@@ -22,6 +33,18 @@ export default function PortfolioPage() {
   const [isAnalyzing, setIsAnalyzing] = React.useState(false)
   const [analysisResult, setAnalysisResult] = React.useState<any>(null)
   const [error, setError] = React.useState<string | null>(null)
+  const [portfolio, setPortfolio] = React.useState<PortfolioItem[]>([])
+
+  React.useEffect(() => {
+    const savedPortfolio = localStorage.getItem("pokemon_portfolio")
+    if (savedPortfolio) {
+      try {
+        setPortfolio(JSON.parse(savedPortfolio))
+      } catch (e) {
+        console.error(e)
+      }
+    }
+  }, [])
 
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0]
@@ -61,7 +84,7 @@ export default function PortfolioPage() {
           contents: [{
             role: "user",
             parts: [
-              { text: "You are an expert Pokemon Card Grader. Identify this card. Please reply ONLY with a JSON object in exactly this format: {\"name\": \"Card Name\", \"set\": \"Set Name\", \"condition\": \"Estimated Condition (e.g. Near Mint, Lightly Played)\", \"estimatedValueUSD\": 150.50, \"reasoning\": \"A short explanation of why\"}" },
+              { text: "You are an expert Pokemon TCG appraiser. Identify the item in the image. It can be a Single Pokemon Card or a Sealed Product (like a Booster Box, Elite Trainer Box, Blister, Tin, etc.). Please reply ONLY with a JSON object in exactly this format: {\"name\": \"Item Name\", \"set\": \"Set Name (if applicable)\", \"type\": \"Card\" or \"Sealed Product\", \"condition\": \"Estimated Condition (e.g. Near Mint, Lightly Played, Factory Sealed, Damaged)\", \"estimatedValueUSD\": 150.50, \"reasoning\": \"A short explanation of why and what specific details you noticed\"}" },
               { inlineData: { mimeType: imageFile?.type || "image/jpeg", data: base64Data } }
             ]
           }]
@@ -87,6 +110,29 @@ export default function PortfolioPage() {
     } finally {
       setIsAnalyzing(false)
     }
+  }
+
+  const addToPortfolio = () => {
+    if (analysisResult && imagePreview) {
+      const newItem: PortfolioItem = {
+        ...analysisResult,
+        id: Date.now().toString(),
+        imagePreview
+      }
+      const updatedPortfolio = [newItem, ...portfolio]
+      setPortfolio(updatedPortfolio)
+      localStorage.setItem("pokemon_portfolio", JSON.stringify(updatedPortfolio))
+      // Reset scanner
+      setImageFile(null)
+      setImagePreview(null)
+      setAnalysisResult(null)
+    }
+  }
+
+  const removeFromPortfolio = (id: string) => {
+    const updated = portfolio.filter(item => item.id !== id)
+    setPortfolio(updated)
+    localStorage.setItem("pokemon_portfolio", JSON.stringify(updated))
   }
 
   return (
@@ -128,18 +174,23 @@ export default function PortfolioPage() {
                     {imagePreview ? (
                       <div className="w-full h-full p-2 flex items-center justify-center relative">
                         <img src={imagePreview} alt="Preview" className="max-h-full rounded-md object-contain" />
-                        <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity rounded-md">
-                          <p className="text-white font-semibold flex items-center"><Upload className="mr-2 h-4 w-4"/> Change Image</p>
+                        <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity rounded-md space-y-2">
+                          <p className="text-white font-semibold flex items-center"><Camera className="mr-2 h-4 w-4"/> Retake Photo</p>
+                          <p className="text-white text-xs flex items-center"><Upload className="mr-2 h-3 w-3"/> Upload New</p>
                         </div>
                       </div>
                     ) : (
-                      <div className="flex flex-col items-center justify-center pt-5 pb-6">
-                        <ImageIcon className="w-10 h-10 mb-3 text-muted-foreground" />
-                        <p className="mb-2 text-sm text-muted-foreground"><span className="font-semibold">Click to upload</span> or drag and drop</p>
-                        <p className="text-xs text-muted-foreground">PNG, JPG or JPEG</p>
+                      <div className="flex flex-col items-center justify-center pt-5 pb-6 px-4 text-center">
+                        <div className="flex space-x-4 mb-3">
+                          <Camera className="w-8 h-8 text-muted-foreground" />
+                          <ImageIcon className="w-8 h-8 text-muted-foreground" />
+                        </div>
+                        <p className="mb-2 text-sm text-muted-foreground"><span className="font-semibold text-primary">Tap to scan</span> with camera</p>
+                        <p className="text-xs text-muted-foreground">or choose a file from your device</p>
                       </div>
                     )}
-                    <input type="file" className="hidden" accept="image/*" onChange={handleImageUpload} />
+                    {/* The capture="environment" attribute defaults to the back camera on mobile */}
+                    <input type="file" className="hidden" accept="image/*" capture="environment" onChange={handleImageUpload} />
                   </label>
                 </div>
                 
@@ -172,7 +223,10 @@ export default function PortfolioPage() {
                     <div className="space-y-6">
                       <div>
                         <h3 className="text-2xl font-bold text-primary">{analysisResult.name}</h3>
-                        <p className="text-muted-foreground">{analysisResult.set}</p>
+                        <p className="text-muted-foreground flex items-center">
+                          {analysisResult.type === "Sealed Product" ? <Package className="h-4 w-4 mr-1" /> : <ImageIcon className="h-4 w-4 mr-1" />}
+                          {analysisResult.set} &bull; {analysisResult.type}
+                        </p>
                       </div>
                       
                       <div className="grid grid-cols-2 gap-4">
@@ -193,14 +247,49 @@ export default function PortfolioPage() {
                         </p>
                       </div>
 
-                      <Button className="w-full" variant="outline">
-                        + Add to Portfolio
+                      <Button className="w-full" variant="default" onClick={addToPortfolio}>
+                        + Save to My Portfolio
                       </Button>
                     </div>
                   )}
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+          {/* Portfolio Grid */}
+          <div className="max-w-4xl mx-auto mt-12 mb-12">
+            <h2 className="text-2xl font-bold mb-6">My Collection</h2>
+            {portfolio.length === 0 ? (
+              <div className="border border-dashed rounded-lg h-32 flex items-center justify-center text-muted-foreground bg-muted/10">
+                You haven't added any items to your portfolio yet.
+              </div>
+            ) : (
+              <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                {portfolio.map(item => (
+                  <Card key={item.id} className="overflow-hidden group">
+                    <div className="h-40 bg-secondary/20 p-2 relative">
+                      <img src={item.imagePreview} alt={item.name} className="h-full w-full object-contain" />
+                      <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <Button variant="destructive" size="sm" className="h-7 px-2 text-xs" onClick={() => removeFromPortfolio(item.id)}>
+                          Remove
+                        </Button>
+                      </div>
+                    </div>
+                    <CardHeader className="p-4 pb-2">
+                      <CardTitle className="text-base line-clamp-1">{item.name}</CardTitle>
+                      <CardDescription className="text-xs line-clamp-1">{item.set}</CardDescription>
+                    </CardHeader>
+                    <CardContent className="p-4 pt-0">
+                      <div className="flex justify-between items-end mt-2">
+                        <Badge variant="outline" className="text-[10px]">{item.condition}</Badge>
+                        <span className="font-bold text-primary">${item.estimatedValueUSD}</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            )}
           </div>
         </ScrollArea>
       </main>
