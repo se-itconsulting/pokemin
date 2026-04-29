@@ -39,8 +39,10 @@ export default function PortfolioPage() {
   const [uploads, setUploads] = React.useState<UploadedImage[]>([])
   const [isAnalyzingAll, setIsAnalyzingAll] = React.useState(false)
   const [portfolio, setPortfolio] = React.useState<PortfolioItem[]>([])
+  const [mounted, setMounted] = React.useState(false)
 
   React.useEffect(() => {
+    setMounted(true)
     const savedPortfolio = localStorage.getItem("pokemon_portfolio")
     if (savedPortfolio) {
       try {
@@ -169,6 +171,8 @@ export default function PortfolioPage() {
     setPortfolio(updated)
     localStorage.setItem("pokemon_portfolio", JSON.stringify(updated))
   }
+
+  if (!mounted) return null;
 
   return (
     <div className="flex h-screen overflow-hidden bg-background">
