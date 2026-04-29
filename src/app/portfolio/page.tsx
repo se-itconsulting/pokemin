@@ -6,11 +6,9 @@ import { useRouter } from "next/navigation"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
+import { ScrollArea } from "@/components/ui/scroll-area"
 import { 
-  Bot, LayoutDashboard, ChevronLeft, Sun, Moon, Sparkles, Image as ImageIcon, Loader2, Upload, Camera, Package
+  Bot, ChevronLeft, Sun, Moon, Sparkles, Image as ImageIcon, Loader2, Upload, Camera, Package, X
 } from "lucide-react"
 
 interface PortfolioItem {
@@ -24,15 +22,22 @@ interface PortfolioItem {
   type: "Card" | "Sealed Product" | "Unknown";
 }
 
+interface UploadedImage {
+  id: string;
+  file: File;
+  preview: string;
+  isHeic: boolean;
+  result?: Partial<PortfolioItem>;
+  status: "pending" | "analyzing" | "done" | "error";
+  errorMsg?: string;
+}
+
 export default function PortfolioPage() {
   const router = useRouter()
   const { setTheme, theme } = useTheme()
   
-  const [imageFile, setImageFile] = React.useState<File | null>(null)
-  const [imagePreview, setImagePreview] = React.useState<string | null>(null)
-  const [isAnalyzing, setIsAnalyzing] = React.useState(false)
-  const [analysisResult, setAnalysisResult] = React.useState<any>(null)
-  const [error, setError] = React.useState<string | null>(null)
+  const [uploads, setUploads] = React.useState<UploadedImage[]>([])
+  const [isAnalyzingAll, setIsAnalyzingAll] = React.useState(false)
   const [portfolio, setPortfolio] = React.useState<PortfolioItem[]>([])
 
   React.useEffect(() => {
@@ -46,86 +51,116 @@ export default function PortfolioPage() {
     }
   }, [])
 
-  const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0]
-    if (file) {
-      setImageFile(file)
-      const reader = new FileReader()
-      reader.onloadend = () => {
-        setImagePreview(reader.result as string)
+  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = e.target.files
+    if (!files || files.length === 0) return
+
+    const newUploads: UploadedImage[] = []
+
+    for (let i = 0; i < files.length; i++) {
+      let file = files[i]
+      const isHeic = file.name.toLowerCase().endsWith('.heic') || file.type === 'image/heic'
+      let previewUrl = ""
+
+      if (isHeic) {
+        try {
+          const heic2any = (await import("heic2any")).default;
+          const convertedBlob = await heic2any({ blob: file, toType: "image/jpeg" }) as Blob;
+          file = new File([convertedBlob], file.name.replace(/\.heic$/i, '.jpg'), { type: "image/jpeg" });
+        } catch (err) {
+          console.error("HEIC conversion failed:", err)
+        }
       }
-      reader.readAsDataURL(file)
-      setAnalysisResult(null)
-      setError(null)
+
+      previewUrl = await new Promise((resolve) => {
+        const reader = new FileReader()
+        reader.onloadend = () => resolve(reader.result as string)
+        reader.readAsDataURL(file)
+      })
+
+      newUploads.push({
+        id: Date.now().toString() + i,
+        file,
+        preview: previewUrl,
+        isHeic,
+        status: "pending"
+      })
     }
+
+    setUploads(prev => [...prev, ...newUploads])
+    // Clear input
+    e.target.value = ""
   }
 
-  const analyzeImage = async () => {
-    if (!imagePreview) return;
+  const removeUpload = (id: string) => {
+    setUploads(prev => prev.filter(u => u.id !== id))
+  }
+
+  const analyzeAll = async () => {
     const apiKey = localStorage.getItem("gemini_api_key")
     if (!apiKey) {
-      setError("Please set your Gemini API Key in the Chatbot first.")
+      alert("Please set your Gemini API Key in the Chatbot first.")
       return;
     }
 
-    setIsAnalyzing(true)
-    setError(null)
+    setIsAnalyzingAll(true)
+    const model = localStorage.getItem("gemini_model") || "gemini-2.5-flash"
 
-    try {
-      // Extract base64 part
-      const base64Data = imagePreview.split(',')[1]
-      
-      const model = localStorage.getItem("gemini_model") || "gemini-2.5-flash"
-      
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents: [{
-            role: "user",
-            parts: [
-              { text: "You are an expert Pokemon TCG appraiser. Identify the item in the image. It can be a Single Pokemon Card or a Sealed Product (like a Booster Box, Elite Trainer Box, Blister, Tin, etc.). Please reply ONLY with a JSON object in exactly this format: {\"name\": \"Item Name\", \"set\": \"Set Name (if applicable)\", \"type\": \"Card\" or \"Sealed Product\", \"condition\": \"Estimated Condition (e.g. Near Mint, Lightly Played, Factory Sealed, Damaged)\", \"estimatedValueUSD\": 150.50, \"reasoning\": \"A short explanation of why and what specific details you noticed\"}" },
-              { inlineData: { mimeType: imageFile?.type || "image/jpeg", data: base64Data } }
-            ]
-          }]
+    for (let i = 0; i < uploads.length; i++) {
+      const upload = uploads[i]
+      if (upload.status === "done" || upload.status === "analyzing") continue;
+
+      setUploads(prev => prev.map(u => u.id === upload.id ? { ...u, status: "analyzing" } : u))
+
+      try {
+        const base64Data = upload.preview.split(',')[1]
+        
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            contents: [{
+              role: "user",
+              parts: [
+                { text: "You are an expert Pokemon TCG appraiser. Identify the item in the image. It can be a Single Pokemon Card or a Sealed Product (like a Booster Box, Elite Trainer Box, Blister, Tin, etc.). Please reply ONLY with a JSON object in exactly this format: {\"name\": \"Item Name\", \"set\": \"Set Name (if applicable)\", \"type\": \"Card\" or \"Sealed Product\", \"condition\": \"Estimated Condition (e.g. Near Mint, Lightly Played, Factory Sealed, Damaged)\", \"estimatedValueUSD\": 150.50, \"reasoning\": \"A short explanation of why and what specific details you noticed\"}" },
+                { inlineData: { mimeType: upload.file.type || "image/jpeg", data: base64Data } }
+              ]
+            }]
+          })
         })
-      })
 
-      if (!response.ok) {
-        throw new Error("Failed to get response from Gemini API.")
+        if (!response.ok) throw new Error("API Error")
+        
+        const data = await response.json()
+        let text = data.candidates?.[0]?.content?.parts?.[0]?.text || ""
+        text = text.replace(/```json/g, '').replace(/```/g, '').trim()
+        
+        const parsed = JSON.parse(text)
+        setUploads(prev => prev.map(u => u.id === upload.id ? { ...u, status: "done", result: parsed } : u))
+        
+      } catch (err: any) {
+        setUploads(prev => prev.map(u => u.id === upload.id ? { ...u, status: "error", errorMsg: "Analysis failed" } : u))
       }
-
-      const data = await response.json()
-      let text = data.candidates?.[0]?.content?.parts?.[0]?.text || ""
-      
-      // Clean up markdown json formatting if present
-      text = text.replace(/```json/g, '').replace(/```/g, '').trim()
-      
-      const parsed = JSON.parse(text)
-      setAnalysisResult(parsed)
-      
-    } catch (err: any) {
-      console.error(err)
-      setError("Could not analyze image. Make sure it's a valid Pokémon card and your API key is correct.")
-    } finally {
-      setIsAnalyzing(false)
     }
+
+    setIsAnalyzingAll(false)
   }
 
-  const addToPortfolio = () => {
-    if (analysisResult && imagePreview) {
-      const newItem: PortfolioItem = {
-        ...analysisResult,
-        id: Date.now().toString(),
-        imagePreview
-      }
-      const updatedPortfolio = [newItem, ...portfolio]
+  const saveAllToPortfolio = () => {
+    const newItems: PortfolioItem[] = uploads
+      .filter(u => u.status === "done" && u.result)
+      .map(u => ({
+        ...u.result,
+        id: Date.now().toString() + Math.random(),
+        imagePreview: u.preview
+      } as PortfolioItem))
+
+    if (newItems.length > 0) {
+      const updatedPortfolio = [...newItems, ...portfolio]
       setPortfolio(updatedPortfolio)
       localStorage.setItem("pokemon_portfolio", JSON.stringify(updatedPortfolio))
-      // Reset scanner
-      setImageFile(null)
-      setImagePreview(null)
-      setAnalysisResult(null)
+      // Remove the successfully saved ones from the upload list
+      setUploads(prev => prev.filter(u => u.status !== "done"))
     }
   }
 
@@ -138,7 +173,7 @@ export default function PortfolioPage() {
   return (
     <div className="flex h-screen overflow-hidden bg-background">
       <main className="flex-1 flex flex-col min-w-0 overflow-hidden">
-        <header className="h-16 border-b flex items-center justify-between px-6 bg-background">
+        <header className="h-16 border-b flex items-center justify-between px-6 bg-background shrink-0">
           <div className="flex items-center space-x-4">
             <Button variant="ghost" size="icon" onClick={() => router.push('/')}>
               <ChevronLeft className="h-5 w-5" />
@@ -161,135 +196,116 @@ export default function PortfolioPage() {
         </header>
 
         <ScrollArea className="flex-1 p-6">
-          <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 pt-8">
+          <div className="max-w-5xl mx-auto space-y-8">
             
+            {/* UPLOAD SECTION */}
             <Card className="shadow-lg border-primary/20">
               <CardHeader>
-                <CardTitle>1. Upload Card Photo</CardTitle>
-                <CardDescription>Upload a clear photo of your Pokémon card for AI analysis.</CardDescription>
+                <CardTitle>1. Upload Cards / Sealed Products</CardTitle>
+                <CardDescription>Upload multiple photos (JPG, PNG, HEIC). HEIC files will be converted automatically.</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-center justify-center w-full">
-                  <label className="flex flex-col items-center justify-center w-full h-64 border-2 border-dashed rounded-lg cursor-pointer bg-muted/20 hover:bg-muted/50 transition-colors border-muted-foreground/30">
-                    {imagePreview ? (
-                      <div className="w-full h-full p-2 flex items-center justify-center relative">
-                        <img src={imagePreview} alt="Preview" className="max-h-full rounded-md object-contain" />
-                        <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity rounded-md space-y-2">
-                          <p className="text-white font-semibold flex items-center"><Camera className="mr-2 h-4 w-4"/> Retake Photo</p>
-                          <p className="text-white text-xs flex items-center"><Upload className="mr-2 h-3 w-3"/> Upload New</p>
-                        </div>
+                  <label className="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed rounded-lg cursor-pointer bg-muted/20 hover:bg-muted/50 transition-colors border-muted-foreground/30">
+                    <div className="flex flex-col items-center justify-center pt-5 pb-6 px-4 text-center">
+                      <div className="flex space-x-4 mb-2">
+                        <Camera className="w-6 h-6 text-muted-foreground" />
+                        <Upload className="w-6 h-6 text-muted-foreground" />
                       </div>
-                    ) : (
-                      <div className="flex flex-col items-center justify-center pt-5 pb-6 px-4 text-center">
-                        <div className="flex space-x-4 mb-3">
-                          <Camera className="w-8 h-8 text-muted-foreground" />
-                          <ImageIcon className="w-8 h-8 text-muted-foreground" />
-                        </div>
-                        <p className="mb-2 text-sm text-muted-foreground"><span className="font-semibold text-primary">Tap to scan</span> with camera</p>
-                        <p className="text-xs text-muted-foreground">or choose a file from your device</p>
-                      </div>
-                    )}
-                    {/* The capture="environment" attribute defaults to the back camera on mobile */}
-                    <input type="file" className="hidden" accept="image/*" capture="environment" onChange={handleImageUpload} />
+                      <p className="text-sm text-muted-foreground"><span className="font-semibold text-primary">Tap to scan</span> or select files</p>
+                    </div>
+                    {/* accept image/* and multiple to allow bulk select */}
+                    <input type="file" className="hidden" accept="image/*,.heic" capture="environment" multiple onChange={handleImageUpload} />
                   </label>
                 </div>
-                
-                <Button 
-                  className="w-full h-12 text-lg" 
-                  onClick={analyzeImage}
-                  disabled={!imagePreview || isAnalyzing}
-                >
-                  {isAnalyzing ? (
-                    <><Loader2 className="mr-2 h-5 w-5 animate-spin" /> Analyzing with Gemini...</>
-                  ) : (
-                    <><Bot className="mr-2 h-5 w-5" /> Evaluate Card</>
-                  )}
-                </Button>
-                {error && <p className="text-red-500 text-sm font-medium text-center">{error}</p>}
+
+                {uploads.length > 0 && (
+                  <div className="mt-6">
+                    <div className="flex justify-between items-center mb-4">
+                      <h3 className="font-semibold">Pending Analysis ({uploads.length})</h3>
+                      <div className="space-x-2">
+                        <Button onClick={analyzeAll} disabled={isAnalyzingAll || uploads.every(u => u.status === 'done')}>
+                          {isAnalyzingAll ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Analyzing...</> : <><Bot className="mr-2 h-4 w-4" /> Analyze All</>}
+                        </Button>
+                        {uploads.some(u => u.status === 'done') && (
+                          <Button variant="secondary" onClick={saveAllToPortfolio}>
+                            Save Finished to Portfolio
+                          </Button>
+                        )}
+                      </div>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                      {uploads.map(upload => (
+                        <div key={upload.id} className="border rounded-lg p-3 flex flex-col space-y-3 relative group">
+                          <button onClick={() => removeUpload(upload.id)} className="absolute top-1 right-1 p-1 bg-red-500/80 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity z-10">
+                            <X className="h-3 w-3" />
+                          </button>
+                          
+                          <div className="h-32 bg-black/5 rounded flex items-center justify-center overflow-hidden">
+                            <img src={upload.preview} alt="preview" className="h-full object-contain" />
+                          </div>
+                          
+                          <div className="flex-1 flex flex-col justify-center">
+                            {upload.status === "pending" && <Badge variant="outline" className="w-fit self-center">Waiting</Badge>}
+                            {upload.status === "analyzing" && <Badge className="w-fit self-center bg-blue-500"><Loader2 className="h-3 w-3 animate-spin mr-1"/> Analyzing</Badge>}
+                            {upload.status === "error" && <Badge variant="destructive" className="w-fit self-center">Error</Badge>}
+                            
+                            {upload.status === "done" && upload.result && (
+                              <div className="space-y-1 text-center">
+                                <div className="font-bold text-sm line-clamp-1" title={upload.result.name}>{upload.result.name}</div>
+                                <div className="text-xs text-muted-foreground">{upload.result.set}</div>
+                                <div className="flex justify-center items-center space-x-2 mt-1">
+                                  <Badge variant="outline" className="text-[10px]">{upload.result.condition}</Badge>
+                                  <span className="text-sm font-bold text-green-600">${upload.result.estimatedValueUSD}</span>
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </CardContent>
             </Card>
 
-            <div className="space-y-6">
-              <Card className="shadow-lg">
-                <CardHeader className="bg-primary/5 border-b">
-                  <CardTitle className="text-lg flex items-center"><Sparkles className="mr-2 h-5 w-5 text-primary"/> AI Evaluation Results</CardTitle>
-                </CardHeader>
-                <CardContent className="p-6">
-                  {!analysisResult ? (
-                    <div className="h-40 flex items-center justify-center text-muted-foreground">
-                      <p className="text-sm">Upload an image and evaluate to see results here.</p>
-                    </div>
-                  ) : (
-                    <div className="space-y-6">
-                      <div>
-                        <h3 className="text-2xl font-bold text-primary">{analysisResult.name}</h3>
-                        <p className="text-muted-foreground flex items-center">
-                          {analysisResult.type === "Sealed Product" ? <Package className="h-4 w-4 mr-1" /> : <ImageIcon className="h-4 w-4 mr-1" />}
-                          {analysisResult.set} &bull; {analysisResult.type}
-                        </p>
-                      </div>
-                      
-                      <div className="grid grid-cols-2 gap-4">
-                        <div className="p-4 bg-muted/30 rounded-lg border">
-                          <p className="text-xs text-muted-foreground uppercase tracking-wider mb-1">Est. Condition</p>
-                          <p className="font-semibold">{analysisResult.condition}</p>
-                        </div>
-                        <div className="p-4 bg-green-500/10 border-green-500/30 border rounded-lg">
-                          <p className="text-xs text-green-600 uppercase tracking-wider mb-1">Est. Value (Raw)</p>
-                          <p className="font-bold text-xl text-green-600">${analysisResult.estimatedValueUSD}</p>
+            {/* PORTFOLIO GRID */}
+            <div className="pt-8 mb-12">
+              <h2 className="text-2xl font-bold mb-6">My Collection ({portfolio.length})</h2>
+              {portfolio.length === 0 ? (
+                <div className="border border-dashed rounded-lg h-32 flex items-center justify-center text-muted-foreground bg-muted/10">
+                  You haven't added any items to your portfolio yet.
+                </div>
+              ) : (
+                <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                  {portfolio.map(item => (
+                    <Card key={item.id} className="overflow-hidden group flex flex-col">
+                      <div className="h-40 bg-secondary/20 p-2 relative shrink-0">
+                        <img src={item.imagePreview} alt={item.name} className="h-full w-full object-contain" />
+                        <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                          <Button variant="destructive" size="sm" className="h-6 w-6 p-0 rounded-full" onClick={() => removeFromPortfolio(item.id)}>
+                            <X className="h-3 w-3" />
+                          </Button>
                         </div>
                       </div>
-
-                      <div className="p-4 bg-secondary/20 rounded-lg border">
-                        <p className="text-xs font-semibold mb-2 flex items-center"><Bot className="mr-2 h-3 w-3"/> AI Reasoning</p>
-                        <p className="text-sm text-muted-foreground leading-relaxed">
-                          {analysisResult.reasoning}
-                        </p>
-                      </div>
-
-                      <Button className="w-full" variant="default" onClick={addToPortfolio}>
-                        + Save to My Portfolio
-                      </Button>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
+                      <CardHeader className="p-3 pb-0 shrink-0">
+                        <CardTitle className="text-sm line-clamp-1" title={item.name}>{item.name}</CardTitle>
+                        <CardDescription className="text-xs line-clamp-1">{item.set}</CardDescription>
+                      </CardHeader>
+                      <CardContent className="p-3 pt-2 mt-auto">
+                        <div className="flex flex-col gap-1">
+                          <div className="flex justify-between items-center">
+                            <Badge variant="outline" className="text-[9px] px-1">{item.condition}</Badge>
+                            <span className="font-bold text-sm text-primary">${item.estimatedValueUSD}</span>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              )}
             </div>
-          </div>
-
-          {/* Portfolio Grid */}
-          <div className="max-w-4xl mx-auto mt-12 mb-12">
-            <h2 className="text-2xl font-bold mb-6">My Collection</h2>
-            {portfolio.length === 0 ? (
-              <div className="border border-dashed rounded-lg h-32 flex items-center justify-center text-muted-foreground bg-muted/10">
-                You haven't added any items to your portfolio yet.
-              </div>
-            ) : (
-              <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                {portfolio.map(item => (
-                  <Card key={item.id} className="overflow-hidden group">
-                    <div className="h-40 bg-secondary/20 p-2 relative">
-                      <img src={item.imagePreview} alt={item.name} className="h-full w-full object-contain" />
-                      <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <Button variant="destructive" size="sm" className="h-7 px-2 text-xs" onClick={() => removeFromPortfolio(item.id)}>
-                          Remove
-                        </Button>
-                      </div>
-                    </div>
-                    <CardHeader className="p-4 pb-2">
-                      <CardTitle className="text-base line-clamp-1">{item.name}</CardTitle>
-                      <CardDescription className="text-xs line-clamp-1">{item.set}</CardDescription>
-                    </CardHeader>
-                    <CardContent className="p-4 pt-0">
-                      <div className="flex justify-between items-end mt-2">
-                        <Badge variant="outline" className="text-[10px]">{item.condition}</Badge>
-                        <span className="font-bold text-primary">${item.estimatedValueUSD}</span>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            )}
           </div>
         </ScrollArea>
       </main>
