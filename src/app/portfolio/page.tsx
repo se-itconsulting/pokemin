@@ -27,7 +27,7 @@ interface UploadedImage {
   file: File;
   preview: string;
   isHeic: boolean;
-  result?: Partial<PortfolioItem>;
+  results?: Partial<PortfolioItem>[];
   status: "pending" | "analyzing" | "done" | "error";
   errorMsg?: string;
 }
@@ -124,7 +124,7 @@ export default function PortfolioPage() {
             contents: [{
               role: "user",
               parts: [
-                { text: "You are an expert Pokemon TCG appraiser. Identify the item in the image. It can be a Single Pokemon Card or a Sealed Product (like a Booster Box, Elite Trainer Box, Blister, Tin, etc.). Please reply ONLY with a JSON object in exactly this format: {\"name\": \"Item Name\", \"set\": \"Set Name (if applicable)\", \"type\": \"Card\" or \"Sealed Product\", \"condition\": \"Estimated Condition (e.g. Near Mint, Lightly Played, Factory Sealed, Damaged)\", \"estimatedValueUSD\": 150.50, \"reasoning\": \"A short explanation of why and what specific details you noticed\"}" },
+                { text: "You are an expert Pokemon TCG appraiser. Identify ALL items in the image. They can be Single Pokemon Cards or Sealed Products. There might be multiple items in one image. Please reply ONLY with a JSON array containing an object for each item found. Format: [{\"name\": \"Item Name\", \"set\": \"Set Name (if applicable)\", \"type\": \"Card\" or \"Sealed Product\", \"condition\": \"Estimated Condition\", \"estimatedValueUSD\": 150.50, \"reasoning\": \"A short explanation\"}]" },
                 { inlineData: { mimeType: upload.file.type || "image/jpeg", data: base64Data } }
               ]
             }]
@@ -137,8 +137,12 @@ export default function PortfolioPage() {
         let text = data.candidates?.[0]?.content?.parts?.[0]?.text || ""
         text = text.replace(/```json/g, '').replace(/```/g, '').trim()
         
-        const parsed = JSON.parse(text)
-        setUploads(prev => prev.map(u => u.id === upload.id ? { ...u, status: "done", result: parsed } : u))
+        let parsed = JSON.parse(text)
+        if (!Array.isArray(parsed)) {
+          parsed = [parsed] // Ensure it's always an array even if Gemini returns one object
+        }
+
+        setUploads(prev => prev.map(u => u.id === upload.id ? { ...u, status: "done", results: parsed } : u))
         
       } catch (err: any) {
         setUploads(prev => prev.map(u => u.id === upload.id ? { ...u, status: "error", errorMsg: "Analysis failed" } : u))
@@ -149,13 +153,19 @@ export default function PortfolioPage() {
   }
 
   const saveAllToPortfolio = () => {
-    const newItems: PortfolioItem[] = uploads
-      .filter(u => u.status === "done" && u.result)
-      .map(u => ({
-        ...u.result,
-        id: Date.now().toString() + Math.random(),
-        imagePreview: u.preview
-      } as PortfolioItem))
+    const newItems: PortfolioItem[] = []
+    
+    uploads.forEach(upload => {
+      if (upload.status === "done" && upload.results) {
+        upload.results.forEach((res, index) => {
+          newItems.push({
+            ...res,
+            id: Date.now().toString() + Math.random() + index,
+            imagePreview: upload.preview
+          } as PortfolioItem)
+        })
+      }
+    })
 
     if (newItems.length > 0) {
       const updatedPortfolio = [...newItems, ...portfolio]
@@ -246,23 +256,27 @@ export default function PortfolioPage() {
                             <X className="h-3 w-3" />
                           </button>
                           
-                          <div className="h-32 bg-black/5 rounded flex items-center justify-center overflow-hidden">
+                          <div className="h-32 bg-black/5 rounded flex items-center justify-center overflow-hidden shrink-0">
                             <img src={upload.preview} alt="preview" className="h-full object-contain" />
                           </div>
                           
-                          <div className="flex-1 flex flex-col justify-center">
-                            {upload.status === "pending" && <Badge variant="outline" className="w-fit self-center">Waiting</Badge>}
-                            {upload.status === "analyzing" && <Badge className="w-fit self-center bg-blue-500"><Loader2 className="h-3 w-3 animate-spin mr-1"/> Analyzing</Badge>}
-                            {upload.status === "error" && <Badge variant="destructive" className="w-fit self-center">Error</Badge>}
+                          <div className="flex-1 flex flex-col justify-start overflow-y-auto max-h-32">
+                            {upload.status === "pending" && <Badge variant="outline" className="w-fit self-center mt-4">Waiting</Badge>}
+                            {upload.status === "analyzing" && <Badge className="w-fit self-center bg-blue-500 mt-4"><Loader2 className="h-3 w-3 animate-spin mr-1"/> Analyzing</Badge>}
+                            {upload.status === "error" && <Badge variant="destructive" className="w-fit self-center mt-4">Error</Badge>}
                             
-                            {upload.status === "done" && upload.result && (
-                              <div className="space-y-1 text-center">
-                                <div className="font-bold text-sm line-clamp-1" title={upload.result.name}>{upload.result.name}</div>
-                                <div className="text-xs text-muted-foreground">{upload.result.set}</div>
-                                <div className="flex justify-center items-center space-x-2 mt-1">
-                                  <Badge variant="outline" className="text-[10px]">{upload.result.condition}</Badge>
-                                  <span className="text-sm font-bold text-green-600">${upload.result.estimatedValueUSD}</span>
-                                </div>
+                            {upload.status === "done" && upload.results && (
+                              <div className="space-y-3 divide-y">
+                                {upload.results.map((res, idx) => (
+                                  <div key={idx} className="pt-2 text-center">
+                                    <div className="font-bold text-sm line-clamp-1" title={res.name}>{res.name}</div>
+                                    <div className="text-xs text-muted-foreground">{res.set}</div>
+                                    <div className="flex justify-center items-center space-x-2 mt-1">
+                                      <Badge variant="outline" className="text-[10px]">{res.condition}</Badge>
+                                      <span className="text-sm font-bold text-green-600">${res.estimatedValueUSD}</span>
+                                    </div>
+                                  </div>
+                                ))}
                               </div>
                             )}
                           </div>
