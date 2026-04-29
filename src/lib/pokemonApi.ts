@@ -60,3 +60,13 @@ export async function fetchCardsBySet(setId: string): Promise<PokemonCard[]> {
   const data = await response.json();
   return data.data;
 }
+
+export async function searchCards(query: string): Promise<PokemonCard[]> {
+  // Use wildcard search on the name field
+  const response = await fetch(`${API_BASE_URL}/cards?q=name:"*${query}*"&orderBy=-set.releaseDate`);
+  if (!response.ok) {
+    throw new Error('Failed to search cards');
+  }
+  const data = await response.json();
+  return data.data;
+}

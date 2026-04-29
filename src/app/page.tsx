@@ -47,6 +47,11 @@ export default function DashboardPage() {
         <ScrollArea className="flex-1">
           <div className="p-4 space-y-2">
             <h4 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">Platform</h4>
+            <Link href="/search" className="w-full">
+              <Button variant="ghost" className="w-full justify-start">
+                <Search className="mr-2 h-4 w-4" /> Global Search
+              </Button>
+            </Link>
             <Button variant="secondary" className="w-full justify-start">
               <LayoutDashboard className="mr-2 h-4 w-4" /> Sets
             </Button>
