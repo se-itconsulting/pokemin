@@ -50,9 +50,11 @@ export default function DashboardPage() {
             <Button variant="secondary" className="w-full justify-start">
               <LayoutDashboard className="mr-2 h-4 w-4" /> Sets
             </Button>
-            <Button variant="ghost" className="w-full justify-start">
-              <Database className="mr-2 h-4 w-4" /> Portfolios
-            </Button>
+            <Link href="/portfolio" className="w-full">
+              <Button variant="ghost" className="w-full justify-start">
+                <Database className="mr-2 h-4 w-4" /> Portfolios
+              </Button>
+            </Link>
             <Button variant="ghost" className="w-full justify-start">
               <Activity className="mr-2 h-4 w-4" /> Market Pulse
             </Button>

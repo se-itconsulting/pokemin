@@ -18,15 +18,34 @@ export function GeminiChatbot() {
   const [messages, setMessages] = React.useState<Message[]>([])
   const [input, setInput] = React.useState("")
   const [loading, setLoading] = React.useState(false)
+  const [selectedModel, setSelectedModel] = React.useState("gemini-2.5-flash")
+
+  const models = [
+    { id: "gemini-2.5-flash", name: "Gemini 2.5 Flash (Free Tier)" },
+    { id: "gemini-2.5-pro", name: "Gemini 2.5 Pro (Free Tier)" },
+    { id: "gemini-1.5-flash", name: "Gemini 1.5 Flash (Free Tier)" },
+    { id: "gemini-1.5-pro", name: "Gemini 1.5 Pro (Free Tier)" }
+  ]
 
   // Load API key from localStorage on mount
   React.useEffect(() => {
-    const saved = localStorage.getItem("gemini_api_key")
-    if (saved) {
-      setApiKey(saved)
+    const savedKey = localStorage.getItem("gemini_api_key")
+    const savedModel = localStorage.getItem("gemini_model")
+    
+    if (savedKey) {
+      setApiKey(savedKey)
       setIsKeySet(true)
     }
+    if (savedModel) {
+      setSelectedModel(savedModel)
+    }
   }, [])
+
+  const handleModelChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const newModel = e.target.value;
+    setSelectedModel(newModel)
+    localStorage.setItem("gemini_model", newModel)
+  }
 
   const saveApiKey = () => {
     if (apiKey.trim()) {
@@ -51,7 +70,7 @@ export function GeminiChatbot() {
     setLoading(true)
 
     try {
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${selectedModel}:generateContent?key=${apiKey}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -112,7 +131,18 @@ export function GeminiChatbot() {
   return (
     <div className="flex-1 flex flex-col h-full overflow-hidden">
       <div className="flex items-center justify-between p-2 border-b">
-        <Badge variant="outline" className="text-[10px] text-green-500 bg-green-500/10 border-green-500/20">Online</Badge>
+        <div className="flex items-center space-x-2">
+          <Badge variant="outline" className="text-[10px] text-green-500 bg-green-500/10 border-green-500/20">Online</Badge>
+          <select 
+            className="text-[10px] bg-background border rounded px-1 py-0.5 outline-none max-w-[120px]"
+            value={selectedModel}
+            onChange={handleModelChange}
+          >
+            {models.map(m => (
+              <option key={m.id} value={m.id}>{m.name}</option>
+            ))}
+          </select>
+        </div>
         <Button variant="ghost" size="icon" className="h-6 w-6 text-muted-foreground hover:text-red-500" onClick={clearApiKey} title="Clear API Key">
           <Trash2 className="h-4 w-4" />
         </Button>

@@ -18,6 +18,7 @@ export default function SetDetailsPage() {
   const [mounted, setMounted] = React.useState(false)
   const [cards, setCards] = React.useState<PokemonCard[]>([])
   const [loading, setLoading] = React.useState(true)
+  const [selectedRarity, setSelectedRarity] = React.useState<string>("All")
 
   React.useEffect(() => {
     setMounted(true)
@@ -44,6 +45,19 @@ export default function SetDetailsPage() {
     return "N/A"
   }
 
+  const uniqueRarities = React.useMemo(() => {
+    const rarities = new Set<string>();
+    cards.forEach(card => {
+      if (card.rarity) rarities.add(card.rarity);
+    });
+    return ["All", ...Array.from(rarities).sort()];
+  }, [cards]);
+
+  const filteredCards = React.useMemo(() => {
+    if (selectedRarity === "All") return cards;
+    return cards.filter(card => card.rarity === selectedRarity);
+  }, [cards, selectedRarity]);
+
   return (
     <div className="flex h-screen overflow-hidden bg-background">
       <main className="flex-1 flex flex-col min-w-0 overflow-hidden">
@@ -55,17 +69,34 @@ export default function SetDetailsPage() {
             <h1 className="text-xl font-bold tracking-tight">Set Details {id && `(${id})`}</h1>
           </div>
           
-          <div className="flex items-center space-x-2">
-            <span className="text-xs text-muted-foreground mr-2">Theme:</span>
-            <Button variant={theme === 'light' ? 'default' : 'outline'} size="sm" onClick={() => setTheme("light")}>
-              <Sun className="h-4 w-4 mr-1" /> Clean
-            </Button>
-            <Button variant={theme === 'theme-warm' ? 'default' : 'outline'} size="sm" onClick={() => setTheme("theme-warm")}>
-              <Sparkles className="h-4 w-4 mr-1" /> Premium
-            </Button>
-            <Button variant={theme === 'dark' ? 'default' : 'outline'} size="sm" onClick={() => setTheme("dark")}>
-              <Moon className="h-4 w-4 mr-1" /> Quant
-            </Button>
+          <div className="flex items-center space-x-4">
+            {uniqueRarities.length > 1 && (
+              <div className="flex items-center space-x-2">
+                <span className="text-xs text-muted-foreground">Rarity:</span>
+                <select 
+                  className="h-8 text-sm border bg-background rounded-md px-2 py-1 outline-none focus:border-primary"
+                  value={selectedRarity}
+                  onChange={(e) => setSelectedRarity(e.target.value)}
+                >
+                  {uniqueRarities.map(r => (
+                    <option key={r} value={r}>{r}</option>
+                  ))}
+                </select>
+              </div>
+            )}
+            
+            <div className="flex items-center space-x-2 border-l pl-4">
+              <span className="text-xs text-muted-foreground mr-2">Theme:</span>
+              <Button variant={theme === 'light' ? 'default' : 'outline'} size="sm" onClick={() => setTheme("light")}>
+                <Sun className="h-4 w-4 mr-1" /> Clean
+              </Button>
+              <Button variant={theme === 'theme-warm' ? 'default' : 'outline'} size="sm" onClick={() => setTheme("theme-warm")}>
+                <Sparkles className="h-4 w-4 mr-1" /> Premium
+              </Button>
+              <Button variant={theme === 'dark' ? 'default' : 'outline'} size="sm" onClick={() => setTheme("dark")}>
+                <Moon className="h-4 w-4 mr-1" /> Quant
+              </Button>
+            </div>
           </div>
         </header>
 
@@ -78,7 +109,7 @@ export default function SetDetailsPage() {
             </div>
           ) : (
             <div className="grid gap-6 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 pb-12">
-              {cards.map((card) => (
+              {filteredCards.map((card) => (
                 <Card key={card.id} className="overflow-hidden hover:shadow-lg transition-all duration-300 border-border/50 group">
                   <div className="bg-secondary/20 flex items-center justify-center p-4 relative overflow-hidden group-hover:bg-secondary/40 transition-colors">
                     <img src={card.images.small} alt={card.name} className="h-64 object-contain relative z-10 transition-transform duration-300 group-hover:scale-105 group-hover:-translate-y-1" />
