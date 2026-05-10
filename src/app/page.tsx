@@ -24,6 +24,8 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Separator } from "@/components/ui/separator"
 import { Input } from "@/components/ui/input"
+import Link from "next/link"
+import { GeminiChatbot } from "@/components/GeminiChatbot"
 import { 
   Bot, Database, LayoutDashboard, Settings, 
   RefreshCcw, ShieldCheck, Sun, Moon, Sparkles, Zap, Activity,
@@ -139,10 +141,6 @@ export default function DashboardPage() {
   
   // Chat Bot State
   const [isChatOpen, setIsChatOpen] = React.useState(false)
-  const [chatInput, setChatInput] = React.useState("")
-  const [messages, setMessages] = React.useState([
-    { role: "system", content: "Hi! Ich bin J.A.R.V.I.S., dein Market Terminal Assistant. Möchtest du den aktuellen Marktwert einer Karte wissen oder einen neuen Filter-Agenten erstellen?" }
-  ])
 
   React.useEffect(() => {
     setMounted(true)
@@ -177,15 +175,26 @@ export default function DashboardPage() {
         <ScrollArea className="flex-1">
           <div className="p-4 space-y-2">
             <h4 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">Platform</h4>
-            <Button variant="secondary" className="w-full justify-start transition-all duration-200 hover:translate-x-1 hover:bg-blue-500/10 hover:text-blue-600 dark:hover:text-blue-400">
-              <LayoutDashboard className="mr-2 h-4 w-4" /> Dashboard
-            </Button>
-            <Button variant="ghost" className="w-full justify-start transition-all duration-200 hover:translate-x-1 hover:bg-primary/5">
-              <Database className="mr-2 h-4 w-4" /> Portfolios
-            </Button>
-            <Button variant="ghost" className="w-full justify-start transition-all duration-200 hover:translate-x-1 hover:bg-primary/5">
-              <Activity className="mr-2 h-4 w-4" /> Market Pulse
-            </Button>
+            <Link href="/" className="w-full block">
+              <Button variant="secondary" className="w-full justify-start transition-all duration-200 hover:translate-x-1 hover:bg-blue-500/10 hover:text-blue-600 dark:hover:text-blue-400">
+                <LayoutDashboard className="mr-2 h-4 w-4" /> Dashboard
+              </Button>
+            </Link>
+            <Link href="/sets" className="w-full block">
+              <Button variant="ghost" className="w-full justify-start transition-all duration-200 hover:translate-x-1 hover:bg-primary/5">
+                <Database className="mr-2 h-4 w-4" /> Sets
+              </Button>
+            </Link>
+            <Link href="/portfolio" className="w-full block">
+              <Button variant="ghost" className="w-full justify-start transition-all duration-200 hover:translate-x-1 hover:bg-primary/5">
+                <Database className="mr-2 h-4 w-4" /> Portfolios
+              </Button>
+            </Link>
+            <Link href="/search" className="w-full block">
+              <Button variant="ghost" className="w-full justify-start transition-all duration-200 hover:translate-x-1 hover:bg-primary/5">
+                <Search className="mr-2 h-4 w-4" /> Global Search
+              </Button>
+            </Link>
           </div>
           <div className="p-4 space-y-2">
             <h4 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">Instructions</h4>
@@ -514,41 +523,8 @@ export default function DashboardPage() {
               </Button>
             </div>
             
-            <ScrollArea className="flex-1 p-4">
-              <div className="space-y-4">
-                {messages.map((msg, i) => (
-                  <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-                    <div className={`max-w-[80%] rounded-2xl px-3 py-2 text-sm shadow-sm ${msg.role === 'user' ? 'bg-primary text-primary-foreground rounded-br-sm' : 'bg-muted rounded-bl-sm'}`}>
-                      {msg.content}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </ScrollArea>
-            
-            <div className="p-3 border-t bg-card/50">
-              <form 
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  if (!chatInput.trim()) return;
-                  setMessages(prev => [...prev, { role: 'user', content: chatInput }]);
-                  setChatInput("");
-                  setTimeout(() => {
-                    setMessages(prev => [...prev, { role: 'system', content: 'Dies ist eine Demo. Die echte LLM-Antwort erfordert einen konfigurierten API-Key in der .env.local Datei!' }]);
-                  }, 800);
-                }} 
-                className="flex items-center space-x-2"
-              >
-                <Input 
-                  value={chatInput} 
-                  onChange={(e) => setChatInput(e.target.value)}
-                  placeholder="Ask J.A.R.V.I.S..." 
-                  className="flex-1 rounded-full bg-background border-primary/20 focus-visible:border-primary"
-                />
-                <Button type="submit" size="icon" className="rounded-full h-9 w-9 shrink-0 bg-primary hover:scale-105 transition-transform">
-                  <Send className="h-4 w-4" />
-                </Button>
-              </form>
+            <div className="flex-1 flex flex-col min-h-0 bg-background/50">
+              <GeminiChatbot />
             </div>
           </Card>
         </div>
